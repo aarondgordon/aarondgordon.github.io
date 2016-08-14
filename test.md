@@ -6,7 +6,6 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-<div>
 $$
   \vec{n} =
   \left[
@@ -17,7 +16,7 @@ $$
     \end{array}
   \right]_{\beta}
 $$
-</div>
+
 
 <pre class="prettyprint">
 #include &lt;iostream&gt;

@@ -6,7 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-\[\vec{n} =
+$$\vec{n} =
   \left[
     \begin{array}{c}
       n_{x} \\
@@ -14,7 +14,7 @@ This is a test of creating markdown pages.
       n_{z} \\
     \end{array}
   \right]_{\beta}
-\]
+$$
 
 
 ```

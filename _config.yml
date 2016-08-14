@@ -1,1 +1,6 @@
-# Empty Config File
+# Config File
+
+
+exclude:
+  - CNAME
+  - README.md

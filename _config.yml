@@ -1,7 +1,7 @@
 # Config File
+markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
 exclude:
   - CNAME

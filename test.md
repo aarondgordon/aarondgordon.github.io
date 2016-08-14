@@ -17,7 +17,7 @@ Given a vector $$
   \right]_{\beta}
 $$ where $$x$$, $$y$$ and $$z$$ are...
 
-```
+``` c
 #include <iostream>
 
 int someNum = 0;

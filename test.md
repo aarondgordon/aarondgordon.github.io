@@ -7,7 +7,8 @@ permalink: /test/
 This is a test of creating markdown pages.
 
 <div>
-$$\vec{n} =
+$$
+  \vec{n} =
   \left[
     \begin{array}{c}
       n_{x} \\
@@ -18,13 +19,13 @@ $$\vec{n} =
 $$
 </div>
 
-```
-#include <iostream>
+<pre class="prettyprint">
+#include &lt;iostream&gt;
 
 int someNum = 0;
-for (int i = 0; i < 10; ++i) {
+for (int i = 0; i &lt; 10; ++i) {
   someNum += i;
 }
 
-std::cout << someNum;
-```
+std::cout &lt;&lt; someNum;
+</pre>

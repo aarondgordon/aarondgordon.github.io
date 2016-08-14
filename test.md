@@ -6,6 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
+Given a vector
 \$$
   \vec{n} =
   \left[
@@ -16,15 +17,15 @@ This is a test of creating markdown pages.
     \end{array}
   \right]_{\beta}
 $$
-
+where $$x$$, $$y$$ and $$z$$ are...
 
 ```
-#include &lt;iostream&gt;
+#include <iostream>
 
 int someNum = 0;
-for (int i = 0; i &lt; 10; ++i) {
+for (int i = 0; i < 10; ++i) {
   someNum += i;
 }
 
-std::cout &lt;&lt; someNum;
+std::cout << someNum;
 ```

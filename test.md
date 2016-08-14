@@ -6,8 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-Given a vector
-\$$
+Given a vector $$
   \vec{n} =
   \left[
     \begin{array}{c}
@@ -16,8 +15,7 @@ Given a vector
       n_{z} \\
     \end{array}
   \right]_{\beta}
-$$
-where $$x$$, $$y$$ and $$z$$ are...
+$$ where $$x$$, $$y$$ and $$z$$ are...
 
 ```
 #include <iostream>

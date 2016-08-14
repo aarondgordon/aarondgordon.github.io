@@ -6,7 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-$$
+\$$
   \vec{n} =
   \left[
     \begin{array}{c}

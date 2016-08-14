@@ -1,5 +1,4 @@
 # Config File
-markdown: kramdown
 kramdown:
   input: GFM
 

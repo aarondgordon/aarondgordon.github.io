@@ -18,7 +18,8 @@ $$\vec{n} =
 $$
 </div>
 
-```
+<div>
+<pre class="prettyprint">
 #include <iostream>
 
 int someNum = 0;
@@ -27,4 +28,5 @@ for (int i = 0; i < 10; ++i) {
 }
 
 std::cout << someNum;
-```
+</pre>
+</div>

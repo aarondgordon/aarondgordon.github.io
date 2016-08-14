@@ -6,7 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-<div>
+'''
 $$\vec{n} =
   \left[
     \begin{array}{c}
@@ -16,9 +16,9 @@ $$\vec{n} =
     \end{array}
   \right]_{\beta}
 $$
-</div>
+'''
 
-<div>
+'''
 <pre class="prettyprint">
 #include <iostream>
 
@@ -29,4 +29,4 @@ for (int i = 0; i < 10; ++i) {
 
 std::cout << someNum;
 </pre>
-</div>
+'''

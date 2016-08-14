@@ -18,7 +18,7 @@ This is a test of creating markdown pages.
 $$
 
 
-<pre class="prettyprint">
+```
 #include &lt;iostream&gt;
 
 int someNum = 0;
@@ -27,4 +27,4 @@ for (int i = 0; i &lt; 10; ++i) {
 }
 
 std::cout &lt;&lt; someNum;
-</pre>
+```

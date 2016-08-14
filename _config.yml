@@ -1,5 +1,7 @@
 # Config File
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - CNAME

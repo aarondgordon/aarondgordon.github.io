@@ -8,7 +8,7 @@ This is a test of creating markdown pages.
 
 Imagine this is a paragraph, and I want to include a full-width image beneath it...
 
-![](/assets/img/checkmate-small.jpg){: .wide}
+![](/assets/img/checkmate-small.jpg){: .is-wide}
 
 Let's see if that works!
 

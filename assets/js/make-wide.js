@@ -15,16 +15,6 @@ $(function() {
   $("img.is-wide")
       .wrap("<div class='wide-img-container'></div>")
       .addClass("wide-img");
-      
-  // Set wide-img-container height
-  $(".wide-img-container").each(function() {
-    var img = $(this).children("img.is-wide");
-    var width = img.attr("width");
-    img.removeAttr("width");
-    var height = img.attr("height");
-    img.removeAttr("height");
-    $(this).css("padding-top", (height / width * 100).toString() + "px");
-  });
 });
 
 // Moves wide elements in the provided containing element up

@@ -20,7 +20,9 @@ $(function() {
   $(".wide-img-container").each(function() {
     var img = $(this).children("img.is-wide");
     var width = img.attr("width");
+    img.removeAttr("width");
     var height = img.attr("height");
+    img.removeAttr("height");
     $(this).css("padding-top", (height / width * 100).toString() + "px");
   });
 });

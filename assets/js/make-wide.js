@@ -1,4 +1,7 @@
 $(function() {
+  // Add reverse function to jQuery
+  $.fn.reverse = [].reverse;
+  
   // Unwrap wide elements from paragraphs added by Jekyll
   $("p > .is-wide").unwrap();
   
@@ -22,7 +25,7 @@ function growUpWideElements(container) {
   console.log(wideE);
   
   if (wideE.length > 0) {
-    var above = wideE.prevAll();
+    var above = wideE.prevAll().reverse();
     var below = wideE.nextAll();
     wideE.unwrap();
     above.wrapAll("<div class='container'></div>");

@@ -12,9 +12,7 @@ $(function() {
   $(".is-wide").wrap("<div class='wide-container'></div>");
   
   // Wrap wide image elements in a second container
-  $("img.is-wide")
-      .wrap("<div class='wide-img-container'></div>")
-      .addClass("wide-img");
+  $("img.is-wide").wrap("<div class='wide-img-container'></div>");
 });
 
 // Moves wide elements in the provided containing element up

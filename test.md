@@ -8,11 +8,7 @@ This is a test of creating markdown pages.
 
 Imagine this is a paragraph, and I want to include a full-width image beneath it...
 
-<div class="wide">
-  <div class="wide-img-container">
-    <img class="wide-img" src="/assets/img/checkmate-small.jpg" />
-  </div>
-</div>
+![](/assets/img/checkmate-small.jpg){.wide}
 
 Let's see if that works!
 

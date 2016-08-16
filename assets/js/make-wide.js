@@ -25,7 +25,7 @@ function growUpWideElements(container) {
     var below = wideE.nextAll();
     wideE.unwrap();
     above.wrapAll("<div class='container'></div>");
-    below.wrapAll("<div class='container'></div>");\
+    below.wrapAll("<div class='container'></div>");
     growUpWideElements(below);
   }
 }

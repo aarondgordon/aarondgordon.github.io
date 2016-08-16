@@ -1,3 +1,5 @@
+body > .container { padding-top: 60px }
+
 .syntax .hll { background-color: #ffffcc }
 .syntax .c { color: #999988; font-style: italic } /* Comment */
 .syntax .err { color: #a61717; background-color: #e3d2d2 } /* Error */

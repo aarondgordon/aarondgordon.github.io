@@ -10,11 +10,10 @@ $(function() {
 
 function splitWideElements(container) {
   var wideE = container.find(".is-wide").filter(":first");
-  console.log(wideE);
   
   if (wideE.length > 0) {
-    var above = wideElement.prevAll();
-    var below = wideElement.nextAll();
+    var above = wideE.prevAll();
+    var below = wideE.nextAll();
     wideE.unwrap();
     above.wrap("<div class='container'></div>");
     below.wrap("div class='container'></div>");

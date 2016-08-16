@@ -61,3 +61,7 @@ body > .container { padding-top: 60px }
 .syntax .vg { color: #008080 } /* Name.Variable.Global */
 .syntax .vi { color: #008080 } /* Name.Variable.Instance */
 .syntax .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }

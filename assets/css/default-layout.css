@@ -18,3 +18,20 @@ body {
   height: 60px;
   background-color: #f5f5f5;
 }
+
+.wide {
+  padding: 0px;
+  width: 100%;
+}
+
+.wide-img-container {
+  position: relative;
+  padding-top: 26.04%;
+}
+
+.wide-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}

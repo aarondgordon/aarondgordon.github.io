@@ -16,7 +16,7 @@ function splitWideElements(container) {
     var below = wideE.nextAll();
     wideE.unwrap();
     above.wrap("<div class='container'></div>");
-    below.wrap("div class='container'></div>");
+    below.wrap("<div class='container'></div>");
     wideE.wrap("<div class='wide-container'></div>");
     splitWideElements(below);
   }

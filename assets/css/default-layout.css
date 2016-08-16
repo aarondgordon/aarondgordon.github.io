@@ -26,7 +26,8 @@ body {
 }
 
 .footer-text {
-  padding-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .github-logo {
@@ -34,7 +35,7 @@ body {
 }
 
 .github-logo img {
-  padding-top: 12px;
+  margin-top: 8px;
 }
 
 .wide-container {

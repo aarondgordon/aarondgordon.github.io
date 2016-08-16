@@ -1,9 +1,11 @@
 $(function() {
   $("p > .is-wide").unwrap();
-  $(".is-wide")
-      .wrap("<div class='wide-container'></div>")
+  
+  $(".is-wide").wrap("<div class='wide-container'></div>");
+  $(".wide-container")
       .before("</div>")
-      .after("<div class='container'");
+      .after("<div class='container'>");
+      
   $("img.is-wide")
       .wrap("<div class='wide-img-container'></div>")
       .addClass("wide-img");

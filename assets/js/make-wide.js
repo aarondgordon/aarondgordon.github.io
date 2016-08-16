@@ -15,6 +15,14 @@ $(function() {
   $("img.is-wide")
       .wrap("<div class='wide-img-container'></div>")
       .addClass("wide-img");
+      
+  // Set wide-img-container height
+  $(".wide-img-container").each(function() {
+    var img = $(this).child("img.is-wide");
+    var width = img.attr("width");
+    var height = img.attr("height");
+    $(this).css("padding-top", (width / height * 100).toString() + "px");
+  });
 });
 
 // Moves wide elements in the provided containing element up
@@ -22,7 +30,6 @@ $(function() {
 // wide element in the process to maintain page flow
 function growUpWideElements(container) {
   var wideE = container.find(".is-wide").filter(":first");
-  console.log(wideE);
   
   if (wideE.length > 0) {
     var above = wideE.prevAll().reverse();
@@ -30,7 +37,6 @@ function growUpWideElements(container) {
     wideE.unwrap();
     above.wrapAll("<div class='container'></div>");
     below.wrapAll("<div class='container'></div>");
-    console.log(below);
     growUpWideElements(below.parent(".container"));
   }
 }

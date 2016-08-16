@@ -21,7 +21,7 @@ $(function() {
     var img = $(this).children("img.is-wide");
     var width = img.attr("width");
     var height = img.attr("height");
-    $(this).css("padding-top", (width / height * 100).toString() + "px");
+    $(this).css("padding-top", (height / width * 100).toString() + "px");
   });
 });
 

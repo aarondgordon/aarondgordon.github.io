@@ -20,8 +20,11 @@ body {
 }
 
 .wide {
-  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
+  padding: 0px;
 }
 
 .wide-img-container {

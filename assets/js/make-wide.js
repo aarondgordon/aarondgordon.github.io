@@ -19,6 +19,7 @@ $(function() {
 // wide element in the process to maintain page flow
 function growUpWideElements(container) {
   var wideE = container.find(".is-wide").filter(":first");
+  console.log(wideE);
   
   if (wideE.length > 0) {
     var above = wideE.prevAll();
@@ -26,6 +27,7 @@ function growUpWideElements(container) {
     wideE.unwrap();
     above.wrapAll("<div class='container'></div>");
     below.wrapAll("<div class='container'></div>");
+    console.log(below);
     growUpWideElements(below);
   }
 }

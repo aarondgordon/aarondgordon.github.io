@@ -3,6 +3,11 @@ html {
   min-height: 100%;
 }
 
+social .a {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
 body > .container {
   padding-top: 60px;
 }

@@ -14,7 +14,7 @@ $(function() {
   // Wrap wide image elements in a second container
   $("img.is-wide")
       .wrap("<div class='wide-img-container'></div>")
-      .replaceWith("<div class='wide-img' style='background-color: black'></div>);
+      .replaceWith("<div class='wide-img' style='background-color: black'></div>");
 });
 
 // Moves wide elements in the provided containing element up

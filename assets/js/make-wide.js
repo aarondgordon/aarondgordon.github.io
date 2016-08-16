@@ -28,6 +28,6 @@ function growUpWideElements(container) {
     above.wrapAll("<div class='container'></div>");
     below.wrapAll("<div class='container'></div>");
     console.log(below);
-    growUpWideElements(below);
+    growUpWideElements($(below));
   }
 }

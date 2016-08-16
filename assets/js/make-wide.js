@@ -9,7 +9,7 @@ $(function() {
 });
 
 function splitWideElements(container) {
-  var wideE = container.find(".is-wide:first-child");
+  var wideE = container.find(".is-wide").filter(":first");
   console.log(wideE);
   
   if (wideE.length > 0) {

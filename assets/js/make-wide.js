@@ -18,7 +18,7 @@ $(function() {
       
   // Set wide-img-container height
   $(".wide-img-container").each(function() {
-    var img = $(this).child("img.is-wide");
+    var img = $(this).children("img.is-wide");
     var width = img.attr("width");
     var height = img.attr("height");
     $(this).css("padding-top", (width / height * 100).toString() + "px");

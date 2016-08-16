@@ -10,6 +10,7 @@ $(function() {
 
 function splitWideElements(container) {
   var wideE = container.find(".is-wide:first-child");
+  console.log(wideE);
   
   if (wideE.length > 0) {
     var above = wideElement.prevAll();

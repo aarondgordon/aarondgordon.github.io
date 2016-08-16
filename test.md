@@ -8,7 +8,7 @@ This is a test of creating markdown pages.
 
 Imagine this is a paragraph, and I want to include a full-width image beneath it...
 
-![](/assets/img/checkmate-small.jpg){: .is-wide width="1920" height="200"}
+![](/assets/img/checkmate-small.jpg){: .is-wide}
 
 Let's see if that works!
 
@@ -38,7 +38,7 @@ std::cout << someNum;
 
 And now another wide image!
 
-![](/assets/img/checkmate-small.jpg){: .is-wide width="1920" height="800"}
+![](/assets/img/checkmate-small.jpg){: .is-wide}
 
 Or, how about a wide comment?  Maybe like a quote!
 

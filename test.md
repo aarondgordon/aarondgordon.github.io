@@ -6,6 +6,18 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
+Imagine this is a paragraph, and I want to include a full-width image beneath it...
+
+    </div>
+    <div class="wide">
+      <div class="wide-img-container">
+        <img class="wide-img" src="/assets/img/checkmate-small.jpg" />
+      </div>
+    </div>
+    <div class="container">
+
+Let's see if that works!
+
 Given a vector
 $$
   \vec{n} =

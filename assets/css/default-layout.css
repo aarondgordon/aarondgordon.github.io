@@ -3,6 +3,11 @@ html {
   min-height: 100%;
 }
 
+.bracket-a {
+  float: left;
+  margin-top: -8px;
+}
+
 .navbar-nav.social > li > a {
   padding-top: 11px;
   padding-bottom: 0px;

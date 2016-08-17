@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+.navbar-brand {
+  color: white;
+}
+
 .bracket-a {
   float: left;
   margin-top: -8px;

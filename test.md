@@ -46,7 +46,7 @@ std::cout << someNum;
 
 It's **very important** that **bold** and also *italic* text can be *easily used to emphasize passages* in the body copy!  Or, how about a wide comment?  Maybe like a quote!  For when I really want to emphasis the hell out of something I said because my ego is just that massive.
 
-"My ego just that massive"
+"My ego is just that massive"
 {: .is-wide}
 
 Naturally we need to format my quotes with a unique font style, just so everyone really knows how massive my ego is.  Now for a few more paragraphs of lorem ipsum, just because.

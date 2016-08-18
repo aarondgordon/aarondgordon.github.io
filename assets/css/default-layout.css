@@ -10,8 +10,8 @@ body > .container {
 body {
   margin-bottom: 60px;
   font-family: 'Vollkorn', 'Georgia', serif;
-  font-size: 19px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 30px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
@@ -21,11 +21,11 @@ body {
 }
 
 .social .fa {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .social a {
-  padding-top: 10px !important;
+  padding-top: 9px !important;
   padding-bottom: 0px !important;
 }
 
@@ -39,17 +39,17 @@ body {
 }
 
 .h2, h2 {
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 36px;
+  line-height: 54px;
 }
 
 .lead {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 36px;
 }
 
 p {
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .mjx-chtml {

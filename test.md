@@ -6,7 +6,7 @@ permalink: /test/
 
 This is a test of creating markdown pages.
 
-##Section Title##
+## Section Title ##
 
 As you saw above, we have 64px title text.  Big and bold!  We also need smaller sub-headers for dividing sections of an article, like the one above!  Perfect!
 

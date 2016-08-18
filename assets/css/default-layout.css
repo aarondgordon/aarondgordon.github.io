@@ -20,9 +20,12 @@ body {
   font-family: 'Didact Gothic', 'Helvetica', sans-serif;
 }
 
-.navbar-nav.social > li > a {
-  padding-top: 6px;
-  padding-bottom: 0px;
+.social .fa {
+    font-size: 32px;
+}
+
+.social a {
+  padding-top: 9px !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -39,13 +42,13 @@ body {
   line-height: 48px;
 }
 
-p {
-  margin-bottom: 27px;
-}
-
 .lead {
   font-size: 24px;
   line-height: 36px;
+}
+
+p {
+  margin-bottom: 27px;
 }
 
 .mjx-chtml {
@@ -68,7 +71,7 @@ p {
 
 .github-logo span {
   position: relative;
-  top: 24px;
+  top: 20px;
 }
 
 .github-logo img {

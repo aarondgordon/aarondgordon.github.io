@@ -8,7 +8,7 @@ This is a test of creating markdown pages.  Normally our first paragraph after t
 
 ## The Big Idea: Two Vectors That Can't Recreate One Another ##
 
-As you saw above, we have 64px title text.  Big and bold!  We also need smaller sub-headers for dividing sections of an article, like the one above!  Perfect!  Now we just need some lorem ipsum!
+As you saw above, we have 48px title text.  Big and bold!  We also need smaller sub-headers for dividing sections of an article, like the one above!  Perfect!  Now we just need some lorem ipsum!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus. Etiam eu felis nec justo vehicula lacinia. Nunc iaculis rhoncus tempus. Sed sed ullamcorper nibh. Nam ac venenatis arcu. Ut ipsum augue, faucibus et ligula at, volutpat bibendum neque.
 

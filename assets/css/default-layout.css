@@ -15,8 +15,8 @@ body > .container {
 body {
   margin-bottom: 60px;
   font-family: 'Vollkorn', 'Georgia', serif;
-  font-size: 17px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 27px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
@@ -38,12 +38,16 @@ body {
 }
 
 p {
-  margin-bottom: 26px;
+  margin-bottom: 27px;
 }
 
 .lead {
   font-size: 24px;
   line-height: 36px;
+}
+
+.mjx-chtml {
+  font-size: 110% !important;
 }
 
 .footer {

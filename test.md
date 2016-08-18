@@ -1,12 +1,12 @@
 ---
 layout: page
-title: test
+title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
 permalink: /test/
 ---
 
-This is a test of creating markdown pages.
+This is a test of creating markdown pages.  Normally our first paragraph after the lead might run a little longer, so here's some lorem ipsum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus.
 
-## Section Title ##
+## The Big Idea: Two Vectors That Can't Recreate One Another ##
 
 As you saw above, we have 64px title text.  Big and bold!  We also need smaller sub-headers for dividing sections of an article, like the one above!  Perfect!  Now we just need some lorem ipsum!
 

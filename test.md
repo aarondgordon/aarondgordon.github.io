@@ -36,7 +36,7 @@ for (int i = 0; i < 10; ++i) {
 std::cout << someNum;
 ```
 
-And now another wide image!
+And now another wide image!  It's **very important** that **bold** and also *italic* text can be *easily used to emphasize passages* in the body copy!
 
 ![](/assets/img/checkmate-small.jpg){: .is-wide}
 

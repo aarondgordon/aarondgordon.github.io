@@ -15,8 +15,8 @@ body > .container {
 body {
   margin-bottom: 60px;
   font-family: 'Vollkorn', 'Georgia', serif;
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 24px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
@@ -35,6 +35,10 @@ body {
 .h2, h2 {
   font-size: 32px;
   line-height: 36px;
+}
+
+p {
+  margin-bottom: 24px;
 }
 
 .lead {

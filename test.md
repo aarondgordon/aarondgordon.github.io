@@ -16,7 +16,7 @@ Morbi cursus nec nulla a rhoncus. Nullam lobortis ex et sapien ultricies tempus.
 
 Imagine this is another paragraph, and I want to include a full-width image beneath it...
 
-![](/assets/img/checkmate-small.jpg){: .is-wide}
+![](/assets/img/checkmate.jpg){: .is-wide}
 
 Let's see if that works!
 

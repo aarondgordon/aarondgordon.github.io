@@ -10,8 +10,8 @@ body > .container {
 body {
   margin-bottom: 60px;
   font-family: 'Vollkorn', 'Georgia', serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
@@ -44,12 +44,12 @@ body {
 }
 
 .lead {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .mjx-chtml {

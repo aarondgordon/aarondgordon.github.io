@@ -10,7 +10,7 @@ body > .container {
 body {
   margin-bottom: 60px;
   background-color: #eee;
-  font-family: 'Vollkorn', 'Georgia', serif;
+  font-family: 'PT Serif', 'Georgia', serif;
   font-size: 18px;
   line-height: 27px;
   vertical-align: baseline;
@@ -22,7 +22,7 @@ p {
 }
 
 .navbar {
-  font-family: 'Didact Gothic', 'Helvetica', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
 .social .fa {
@@ -45,7 +45,7 @@ p {
 
 .h2, h2 {
   font-size: 27px;
-  line-height: 34px;
+  line-height: 41px;
 }
 
 .lead {

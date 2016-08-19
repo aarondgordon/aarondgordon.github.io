@@ -9,12 +9,16 @@ body > .container {
 
 body {
   margin-bottom: 60px;
+  background-color: #eee;
   font-family: 'Vollkorn', 'Georgia', serif;
-  font-size: 19px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 27px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
-  background-color: #eee;
+}
+
+p {
+  margin-bottom: 27px;
 }
 
 .navbar {
@@ -35,22 +39,18 @@ body {
 }
 
 .h1, h1 {
-  font-size: 45px;
+  font-size: 41px;
   line-height: 51px;
 }
 
 .h2, h2 {
-  font-size: 30px;
+  font-size: 27px;
   line-height: 34px;
 }
 
 .lead {
-  font-size: 24px;
-  line-height: 36px;
-}
-
-p {
-  margin-bottom: 30px;
+  font-size: 23px;
+  line-height: 34px;
 }
 
 .mjx-chtml {
@@ -63,8 +63,8 @@ p {
   width: 100%;
   height: 60px;
   padding: 0px;
-  font-family: 'Didact Gothic', 'Helvetica', sans-serif;
   background-color: #f5f5f5;
+  font-family: 'Didact Gothic', 'Helvetica', sans-serif;
 }
 
 .github-logo {

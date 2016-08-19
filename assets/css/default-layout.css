@@ -14,6 +14,7 @@ body {
   line-height: 30px;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
+  background-color: #ddd;
 }
 
 .navbar {

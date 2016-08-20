@@ -2,14 +2,14 @@
 html {
   position: relative;
   min-height: 100%;
-  font-size: 0.8125em;
+  font-size: 1em;
 }
 
 body {
   margin-bottom: 60px;
   background-color: #eee;
   font-family: 'PT Serif', 'Georgia', serif;
-  font-size: 2em;
+  font-size: 1.125em;
   font-weight: 400;
   line-height: 1.45;
   vertical-align: baseline;

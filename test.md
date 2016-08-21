@@ -12,6 +12,8 @@ As you saw above, we have 48px title text.  Big and bold!  We also need smaller 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus. Etiam eu felis nec justo vehicula lacinia. Nunc iaculis rhoncus tempus. Sed sed ullamcorper nibh. Nam ac venenatis arcu. Ut ipsum augue, faucibus et ligula at, volutpat bibendum neque.
 
+### Linear Independence ###
+
 Morbi cursus nec nulla a rhoncus. Nullam lobortis ex et sapien ultricies tempus. Aliquam non elementum ex, in lobortis diam. Nam condimentum lacus venenatis turpis ornare tincidunt. Nulla malesuada urna sit amet cursus congue. Nulla sed finibus nisi, eget dapibus erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam libero ipsum, faucibus nec lacus vitae, tincidunt convallis lectus.
 
 Imagine this is another paragraph, and I want to include a full-width image beneath it...

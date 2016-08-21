@@ -42,20 +42,19 @@ body {
   line-height: 1.75; /* 4 x baseline | 56px/32px*/
 }
 
-.lead, .h3, h3 {
-  font-size: 1.33em; /* 24px/18px */
-  line-height: 1.75; /* 3 x baseline | 42px/24px */
-}
-
 .h3, h3 {
   margin-top: 1.167em; /* 2 x baseline | 28px/24px */
   margin-bottom: 1.167em; /* 2 x baseline | 28px/24px */
+  font-size: 1.33em; /* 24px/18px */
+  line-height: 1.75; /* 3 x baseline | 42px/24px */
 }
 
 .lead {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 1.167em; /* 2 x baseline | 28px/24px */
+  padding-bottom: 1.273em; /* 2 x baseline | 28px/22px */
+  font-size: 1.222em; /* 22px/18px */
+  line-height: 1.273em; /* 2 x baseline | 28px/22px */
 }
 
 p {

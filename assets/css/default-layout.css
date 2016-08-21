@@ -39,12 +39,12 @@ body {
   padding-top: 1.167em; /* 3 x baseline | 42px/36px */
   margin-bottom: 0.778em; /* 2 x baseline | 28px/36px */
   font-size: 2em; /* 36px/18px */
-  line-height: 1.556; /* 56px/36px*/
+  line-height: 1.556; /* 4 x baseline | 56px/36px*/
 }
 
 .lead, .h3, h3 {
   margin-bottom: 1.077em; /* 2 x baseline | 28px / 26px */
-  font-size: 1.389em; /* 26px/18px */
+  font-size: 1.45em; /* 26px/18px */
   line-height: 1.615; /* 3 x baseline | 42px/26px */
 }
 

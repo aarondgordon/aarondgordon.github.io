@@ -47,7 +47,7 @@ body {
   line-height: 1.615; /* 3 x baseline | 42px/26px */
 }
 
-.h3 h3 {
+.h3, h3 {
   margin-top: 1.077em; /* 2 x baseline | 28px/26px */
   margin-bottom: 1.077em; /* 2 x baseline | 28px / 26px */
 }

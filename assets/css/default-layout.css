@@ -75,6 +75,7 @@ body {
   margin: 0;
   font-family: 'Alegreya Sans SC', 'Helvetica', sans-serif;
   font-weight: inherit;
+  letter-spacing: -0.025em;
 }
 
 .h1, h1 {

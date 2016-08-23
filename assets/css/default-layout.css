@@ -72,11 +72,19 @@ small, .font_small {
 }
 
 .navbar {
+  margin: 0;
   font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
+.navbar-nav>li>a {
+  font-size: 1.222em;
+  line-height: 1.273;
+  padding-top: 0.636em;
+  padding-bottom: 0.636em;
+}
+
 .social .fa {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .social a {

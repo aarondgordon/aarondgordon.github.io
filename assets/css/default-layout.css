@@ -83,6 +83,10 @@ small, .font_small {
   padding-bottom: 0.636em;
 }
 
+.navbar-toggle {
+  border-style: none;
+}
+
 .social .fa {
   font-size: 32px;
 }

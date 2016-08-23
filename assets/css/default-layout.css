@@ -37,8 +37,8 @@ body {
   margin-bottom: 42px;
   color: #777;
   font-family: 'Gloria Hallelujah';
-  font-size: 1em; /* 18px/18px */
-  line-height: 0.778em; /* 1 x baseline | 14px/18px */
+  font-size: 0.5625em; /* 18px/32px */
+  line-height: 0.778; /* 1 x baseline | 14px/18px */
   z-index: 10000;
 }
 

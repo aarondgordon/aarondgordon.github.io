@@ -90,7 +90,7 @@ small, .font_small {
 
 .navbar-nav>li>a {
   font-size: 1.222em; /* 22px/18px */
-  line-height: 1.273; /* 2 x baseline | 28px/22px */
+  line-height: 1.91; /* 3 x baseline | 42px/22px */
   padding-top: 0.636em; /* 1 x baseline | 14px/22px */
   padding-bottom: 0.636em; /* 1 x baseline | 14px/22px */
 }

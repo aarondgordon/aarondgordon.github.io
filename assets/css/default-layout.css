@@ -71,16 +71,28 @@ small, .font_small {
   font-size: 110% !important;
 }
 
+.headline {
+  width: 100%;
+  background-color: white;
+}
+
+.headline .brand {
+  font-family: 'Oswald', 'Helvetica', sans-serif;
+  font-size: 1.778em; /* 32px/18px */
+  line-height: 1.3125; /* 3 x baseline | 42px/32px */
+  margin: 1.3125em 0 0.4375em; /* 3 x baseline, 1 x baseline | 42px/32px, 14px/32px */
+}
+
 .navbar {
   margin: 0;
   font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
 .navbar-nav>li>a {
-  font-size: 1.222em;
-  line-height: 1.273;
-  padding-top: 0.636em;
-  padding-bottom: 0.636em;
+  font-size: 1.222em; /* 22px/18px */
+  line-height: 1.273; /* 2 x baseline | 28px/22px */
+  padding-top: 0.636em; /* 1 x baseline | 14px/22px */
+  padding-bottom: 0.636em; /* 1 x baseline | 14px/22px */
 }
 
 .navbar-toggle {

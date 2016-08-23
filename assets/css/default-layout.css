@@ -30,6 +30,18 @@ body {
   margin: 1.3125em 0 0.4375em; /* 3 x baseline, 1 x baseline | 42px/32px, 14px/32px */
 }
 
+.headline .tagline {
+  float: right;
+  position:relative;
+  top: 42px;
+  margin-bottom: 42px;
+  color: #777
+  font-family: 'Gloria Hallelujah';
+  font-size: 1em; /* 18px/18px */
+  line-height: 0.778em; /* 1 x baseline | 14px/18px */
+  z-index: 10000;
+}
+
 .navbar {
   min-height: 3.111em; /* 4 x baseline | 56px/18px */
   margin: 0;

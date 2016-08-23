@@ -10,7 +10,7 @@ html {
 body {
   margin-bottom: 60px;
   background: #ebebeb url("/assets/img/background-shattered.gif") left 8em repeat-x ;
-  font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-size: 1.125em; /* 18px/16px  */
   font-weight: 400;
   line-height: 1.556; /* 2 x baseline | 28px/18px */
@@ -46,7 +46,7 @@ body {
 .navbar {
   min-height: 3.111em; /* 4 x baseline | 56px/18px */
   margin: 0;
-  font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
 .navbar-nav>li>a {
@@ -127,7 +127,7 @@ small, .font_small {
   height: 60px;
   padding: 0px;
   background-color: #f5f5f5;
-  font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
 .github-logo {

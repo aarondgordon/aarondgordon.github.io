@@ -36,6 +36,7 @@ body {
   top: 2.33em; /* 3 x baseline | 42px/18px */
   margin-bottom: 2.33em; /* 3 x baseline | 42px/18px */
   color: #777;
+  text-align: right;
   font-family: 'Gloria Hallelujah';
   font-size: 0.5625em; /* 18px/32px */
   line-height: 0.778; /* 1 x baseline | 14px/18px */

@@ -24,7 +24,7 @@ body {
 }
 
 .headline .brand {
-  font-family: 'Oswald', 'Helvetica', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Helvetica', sans-serif;
   font-size: 1.778em; /* 32px/18px */
   line-height: 1.3125; /* 3 x baseline | 42px/32px */
   margin: 1.3125em 0 0.4375em; /* 3 x baseline, 1 x baseline | 42px/32px, 14px/32px */
@@ -37,7 +37,7 @@ body {
   margin-bottom: 2.33em; /* 3 x baseline | 42px/18px */
   color: #777;
   text-align: right;
-  /*font-family: 'Gloria Hallelujah';*/
+  font-family: 'Gloria Hallelujah';
   font-size: 0.5625em; /* 18px/32px */
   line-height: 0.778; /* 1 x baseline | 14px/18px */
   z-index: 10000;
@@ -73,7 +73,7 @@ body {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Helvetica', sans-serif;
   font-weight: inherit;
 }
 

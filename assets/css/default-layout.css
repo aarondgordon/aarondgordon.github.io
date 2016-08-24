@@ -46,7 +46,6 @@ body {
 }
 
 .navbar {
-  min-height: 3.111em; /* 4 x baseline | 56px/18px */
   margin: 0;
   border-width: 0;
 }
@@ -77,8 +76,9 @@ body {
   border-style: none;
 }
 
-.container {
-  max-width: 46em;
+.container-content {
+  background-color: white;
+  padding: 0 3.89em; /* 70px/18px */
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {

@@ -61,7 +61,7 @@ body {
 .navbar-nav>li>a:hover, .navbar-nav>li>a:active {
   border-style: solid;
   border-color: #0064a4;
-  border-width: 0 0 0.189emx 0; /* 4px/22px */
+  border-width: 0 0 0.189em 0; /* 4px/22px */
   padding-top: 0.636em; /* 1 x baseline | 14px/22px */
   padding-bottom: 0.455em; /* 10px/22px */
 }

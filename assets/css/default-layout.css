@@ -58,7 +58,7 @@ body {
   padding-bottom: 0.636em; /* 1 x baseline | 14px/22px */
 }
 
-.navbar-nav>li>a:hover, .navbar-nav>li>a:active {
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active, .navbar-nav>.active>a {
   border-style: solid;
   border-color: #0064a4;
   border-width: 0 0 0.189em 0; /* 4px/22px */

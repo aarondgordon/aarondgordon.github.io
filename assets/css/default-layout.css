@@ -89,6 +89,10 @@ body {
   margin: 0;
   font-family: 'Pathway Gothic One', sans-serif;
   font-weight: inherit;
+  border-style: solid;
+  border-color: #0064a4;
+  border-width: 0 0 0 7px;
+  padding-left: 14px;
 }
 
 .h1, h1 {

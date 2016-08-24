@@ -16,12 +16,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximu
 
 Morbi cursus nec nulla a rhoncus. Nullam lobortis ex et sapien ultricies tempus. Aliquam non elementum ex, in lobortis diam. Nam condimentum lacus venenatis turpis ornare tincidunt. Nulla malesuada urna sit amet cursus congue. Nulla sed finibus nisi, eget dapibus erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam libero ipsum, faucibus nec lacus vitae, tincidunt convallis lectus.
 
-Imagine this is another paragraph, and I want to include a full-width image beneath it...
-
-![](/assets/img/checkmate.jpg){: .is-wide}
-
-Let's see if that works!
-
 Given a vector
 $$
   \vec{n} =
@@ -45,13 +39,6 @@ for (int i = 0; i < 10; ++i) {
 
 std::cout << someNum;
 ```
-
-It's **very important** that **bold** and also *italic* text can be *easily used to emphasize passages* in the body copy!  Or, how about a wide comment?  Maybe like a quote!  For when I really want to emphasis the hell out of something I said because my ego is just that massive.
-
-"My ego is just that massive"
-{: .is-wide}
-
-Naturally we need to format my quotes with a unique font style, just so everyone really knows how massive my ego is.  Now for a few more paragraphs of lorem ipsum, just because.
 
 Nullam ultrices leo nec lorem sagittis pulvinar. Nulla nec bibendum lorem. Nullam quam mauris, tempus vel libero quis, tristique lacinia urna. Morbi egestas placerat magna, non imperdiet risus facilisis nec. Duis mauris orci, tempus pharetra hendrerit at, suscipit at diam. Fusce vel lobortis risus, vel tincidunt neque. Sed ut mi a tellus pulvinar interdum sed ac lectus. Nam tempus quis nibh eget vulputate. Suspendisse mollis pretium tellus. In non est non ligula venenatis tincidunt eget ac ligula. Donec eros justo, vestibulum sit amet orci nec, feugiat rhoncus metus. In convallis velit sed lacus tincidunt, quis ornare urna cursus. Fusce vehicula sagittis nisl. Donec venenatis vitae nulla ut tincidunt. Quisque in est ex. Aliquam ultricies urna a metus ullamcorper maximus.
 

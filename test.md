@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
 permalink: /test/
 ---

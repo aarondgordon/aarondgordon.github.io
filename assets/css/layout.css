@@ -133,18 +133,20 @@ body {
   text-decoration: underline;
 }
 
-.btn-cover {
+a.btn-cover {
   float: right;
   margin-bottom: 1.167em; /* 21px / 18px */
   border: 0;
   color: #0064a4;
   background-color: #f8f8f8;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.btn-cover:hover, .btn-cover:active {
+a.btn-cover:hover, a.btn-cover:active {
   color: #fff;
   background-color: #0096F0;
+  text-decoration: none;
 }
 
 .container-content-wrapper {

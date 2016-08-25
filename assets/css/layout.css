@@ -13,6 +13,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  backgorund-color: #ebebeb;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.125em; /* 18px/16px  */
   font-weight: 400;
@@ -123,7 +124,8 @@ body {
 
 .container-content-wrapper {
   width: 100%;
-  background: #ebebeb url("/assets/img/background-shattered.gif") left top repeat-x ;
+  min-height: 1000px;
+  background: #ebebeb url("/assets/img/background-shattered.gif") left top repeat-x;
 }
 
 .container-content {

@@ -53,14 +53,14 @@ body {
   border-width: 0;
 }
 
-.navbar-menu a {
+.navbar-menu>li>a {
   font-size: 1.222em; /* 22px/18px */
   line-height: 1.273; /* 2 x baseline | 28px/22px */
   padding-top: 0.636em; /* 1 x baseline | 14px/22px */
   padding-bottom: 0.636em; /* 1 x baseline | 14px/22px */
 }
 
-.navbar-menu a:hover, .navbar-menu a:active, .navbar-menu>.active>a {
+.navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
   border-style: solid;
   border-color: #0064a4;
   border-width: 0 0 0.189em 0; /* 4px/22px */

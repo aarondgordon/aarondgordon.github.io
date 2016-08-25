@@ -30,7 +30,7 @@ body {
   line-height: 1.3125; /* 3 x baseline | 42px/32px */
 }
 
-.headline .brand .a:hover {
+.headline .brand a:hover {
   color: #0064a4;
   text-decoration: none;
 }

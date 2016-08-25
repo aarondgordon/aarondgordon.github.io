@@ -93,7 +93,7 @@ body {
 
 .cover-tag {
   background-color:white;
-  padding: 333em; /* 14px/42px */
+  padding: 0.333em; /* 14px/42px */
   margin-top: 1.667em; /* 70px/42px */
   margin-left: 1em; /* 42px/42px */
   border-style: solid;

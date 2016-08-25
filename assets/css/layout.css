@@ -72,7 +72,7 @@ body {
   padding-bottom: 0.455em; /* 10px/22px */
 }
 
-.navbar-social a {
+.navbar-social>li>a {
     font-size: 1.778em; /* 32px/18px */
     line-height: 1.3125; /* 3 x baseline | 42px/32px */
     padding-top: 0.21875em; /* 1/2 x baseline | 7px/32px */

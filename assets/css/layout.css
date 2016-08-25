@@ -124,7 +124,6 @@ body {
 
 .container-content-wrapper {
   width: 100%;
-  min-height: 1000px;
   background: #ebebeb url("/assets/img/background-shattered.gif") left top repeat-x;
 }
 

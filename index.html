@@ -3,7 +3,7 @@ layout: default
 title: Aaron Gordon
 ---
 {% for post in site.posts limit:1 %}
-<div class="cover-image" style="background-image:url('{{ post.image }}')">
+<div class="cover" style="background-image:url('{{ post.image }}')">
   <div class="container">
     <div class="row">
       <div class="col-sm-4 no-gutter">
@@ -11,7 +11,7 @@ title: Aaron Gordon
       </div>
       <div class="col-sm-8 no-gutter">
         <div class="cover-panel">
-          <div class="cover-panel-title">{{ post.title }}</div>
+          <div class="cover-title">{{ post.title }}</div>
           <p><i class="fa fa-comment"></i> &nbsp; 3 Comments</p>
           <p class="lead">{{ post.excerpt | remove:'<p>' | remove:'</p>' }}</p>
           <a class="btn btn-cover" href="{{ post.url }}">Read More</a>

@@ -198,6 +198,15 @@ small, .font_small {
   font-size: 0.75em; /* 13.5px/18px */
 }
 
+a {
+  color: #0096F0;
+}
+
+a:hover, a:active {
+  color: #0096F0;
+  text-decoration: underline;
+}
+
 .mjx-chtml {
   font-size: 110% !important;
 }

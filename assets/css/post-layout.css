@@ -1,0 +1,6 @@
+/* Baseline is 14px */
+
+.cover-image {
+  width: 100%;
+  min-height: 23.333em; /* 30 x baseline | 420px/18px */
+}

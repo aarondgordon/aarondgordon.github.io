@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
 permalink: /test/
-cover-image: https://static.pexels.com/photos/131616/pexels-photo-131616.jpeg
+image: https://static.pexels.com/photos/131616/pexels-photo-131616.jpeg
 ---
 
 This is a test of creating markdown pages.  Normally our first paragraph after the lead might run a little longer, so here's some lorem ipsum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus.

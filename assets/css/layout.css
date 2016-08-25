@@ -96,6 +96,7 @@ body {
   padding: 0.333em; /* 14px/42px */
   margin-top: 1.667em; /* 70px/42px */
   margin-left: 1em; /* 42px/42px */
+  margin-bottom: 1em; /* 42px/42px */
   border-style: solid;
   border-color: #0064a4;
   border-width: 0 0 0 14px;

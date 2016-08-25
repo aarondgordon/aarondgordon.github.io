@@ -6,6 +6,15 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'syntax'
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      image: "/assets/img/posts/common/circuitboard.jpg"
+
 exclude:
   - CNAME
   - README.md

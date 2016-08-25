@@ -17,24 +17,24 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.headline {
+.header {
   width: 100%;
   background-color: white;
 }
 
-.headline .brand {
+.header-brand {
   margin: 1.3125em 0 0.4375em; /* 3 x baseline, 1 x baseline | 42px/32px, 14px/32px */
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1.778em; /* 32px/18px */
   line-height: 1.3125; /* 3 x baseline | 42px/32px */
 }
 
-.headline .brand a, .headline .brand a:hover, .headline .brand a:active {
+.header-brand a, .header-brand a:hover, .header-brand a:active {
   color: #0064a4;
   text-decoration: none;
 }
 
-.headline .tagline {
+.header-tagline {
   float: right;
   position: relative;
   top: 2.33em; /* 3 x baseline | 42px/18px */

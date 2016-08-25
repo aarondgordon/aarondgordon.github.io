@@ -1,6 +1,10 @@
 /* Assume a baseline of 14px */
 /* Backgorund courtesy subtlepatterns.com */
 
+.no-gutter {
+  padding: 0;
+}
+
 html {
   position: relative;
   min-height: 100%;

@@ -13,7 +13,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      image: "/assets/img/posts/common/circuitboard.jpg"
+      image: "/assets/img/posts/common/motherboard.jpg"
 
 exclude:
   - CNAME

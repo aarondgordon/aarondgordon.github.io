@@ -102,9 +102,15 @@ body {
 .cover-panel-btn {
   float: right;
   margin-bottom: 1.167em; /* 21px / 18px */
+  border: 0;
   color: #0064a4;
   background-color: #f8f8f8;
   font-weight: 700;
+}
+
+.cover-panel-btn:hover, .cover-panel-btn:active {
+  color: #fff;
+  background-color: #0096F0;
 }
 
 .container-content-wrapper {

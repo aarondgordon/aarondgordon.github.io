@@ -158,10 +158,16 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .container-content {
-  background-color: white;
-  padding: 0 3.89em; /* 70px/18px */
-  position: relative;
-  top: -3.89em; /* 70px/18px */;
+  background-color: #fff;
+  padding: 0.778em; /* 14px/18px */
+}
+
+@media (min-width: 768px) {
+  .container-content {
+    padding: 0 3.89em; /* 70px/18px */
+    position: relative;
+    top: -3.89em; /* 70px/18px */;
+  }
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {

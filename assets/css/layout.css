@@ -53,14 +53,14 @@ body {
   border-width: 0;
 }
 
-.navbar-nav>li>a {
+.navbar-menu a {
   font-size: 1.222em; /* 22px/18px */
   line-height: 1.273; /* 2 x baseline | 28px/22px */
   padding-top: 0.636em; /* 1 x baseline | 14px/22px */
   padding-bottom: 0.636em; /* 1 x baseline | 14px/22px */
 }
 
-.navbar-nav>li>a:hover, .navbar-nav>li>a:active, .navbar-nav>.active>a {
+.navbar-menu a:hover, .navbar-menu a:active, .navbar-menu>.active>a {
   border-style: solid;
   border-color: #0064a4;
   border-width: 0 0 0.189em 0; /* 4px/22px */
@@ -68,7 +68,7 @@ body {
   padding-bottom: 0.455em; /* 10px/22px */
 }
 
-.social>li>a {
+.navbar-social a {
     font-size: 1.778em; /* 32px/18px */
     line-height: 1.3125; /* 3 x baseline | 42px/32px */
     padding-top: 0.21875em; /* 1/2 x baseline | 7px/32px */

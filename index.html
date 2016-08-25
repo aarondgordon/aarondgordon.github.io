@@ -13,7 +13,7 @@ title: Aaron Gordon
         <div class="cover-panel">
           <div class="cover-title">{{ post.title }}</div>
           <p>
-            <a href="{{ post.url }}#comments"><i class="fa fa-comment"></i> &nbsp; 3 Comments</a>
+            <i class="fa fa-comment"></i> &nbsp; <a href="{{ post.url }}#comments">3 Comments</a>
           </p>
           <p class="lead">{{ post.excerpt | remove:'<p>' | remove:'</p>' }}</p>
           <a class="btn btn-cover" href="{{ post.url }}">Read More</a>

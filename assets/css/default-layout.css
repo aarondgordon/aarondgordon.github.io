@@ -75,6 +75,13 @@ body {
   border-style: none;
 }
 
+.cover-image {
+  width: 100%;
+  min-height: 23.333em; /* 30 x baseline | 420px/18px */
+  background-position: center;
+  background-size: cover;
+}
+
 .container-content-wrapper {
   width: 100%;
   background: #ebebeb url("/assets/img/background-shattered.gif") left top repeat-x ;

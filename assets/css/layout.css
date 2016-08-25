@@ -83,7 +83,7 @@ body {
   border-style: none;
 }
 
-.cover-image {
+.cover {
   width: 100%;
   min-height: 23.333em; /* 30 x baseline | 420px/18px */
   background-position: center;
@@ -99,7 +99,7 @@ body {
   float: right;
 }
 
-.cover-panel-title {
+.cover-title {
   margin-top: 2em; /* 6 x baseline | 84px/42px */
   margin-bottom: 0;
   font-size: 2.333em; /* 42px/18px */

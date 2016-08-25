@@ -5,6 +5,8 @@ permalink: /test-post/
 image: /assets/img/posts/common/motherboard.jpg
 ---
 
+This is our excerpt text.  It's used as a post preview on the main page and also serves as our leading paragraph.  What follows is a gross and messy test page!  Read on to be amazed...
+
 This is a test of creating markdown pages.  Normally our first paragraph after the lead might run a little longer, so here's some lorem ipsum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus.
 
 ## The Big Idea: Two Vectors That Can't Scale to One Another ##

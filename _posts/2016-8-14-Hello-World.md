@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Hello, World!
 ---
 We loved with a love that was more than love

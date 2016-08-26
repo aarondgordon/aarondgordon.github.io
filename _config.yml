@@ -6,6 +6,8 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'syntax'
 
+permalink: /blog/:slug/
+
 defaults:
   -
     scope:

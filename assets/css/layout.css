@@ -266,9 +266,20 @@ a:hover, a:active {
 }
 
 .comments-wrapper {
-  min-height: 500px;
   background: #777777;
   color: #fff;
+}
+
+.comments-title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-top: 1.313em; /* 3 x baseline | 42px/32px */
+  margin-bottom: 0.875em; /* 2 x baseline | 28px/32px */
+  font-size: 1.778em; /* 32px/18px */
+  line-height: 1.313; /* 3 x baseline | 42px/32px*/
+}
+
+.comments-title .fa {
+  color: #0064a4;
 }
 
 .footer {

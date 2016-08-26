@@ -154,7 +154,7 @@ body {
 
 @media (min-width: 768px) {
   .cover-title {
-    margin-top: 1.333em; /* 4 x baseline | 56px/42px */
+    margin-top: 1.666em; /* 5 x baseline | 70px/42px */
   }
 }
 

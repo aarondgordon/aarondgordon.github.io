@@ -196,7 +196,7 @@ a.btn-cover:hover, a.btn-cover:active {
 
 @media (min-width: 768px) {
   .container-content {
-    padding: 0 3.89em; /* 70px/18px */
+    padding: 0 3.89em 1.556em; /* 70px/18px, 28px/18px */
     position: relative;
     top: -3.89em; /* 70px/18px */;
   }

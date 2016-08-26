@@ -67,9 +67,13 @@ body {
  } 
 }
 
+.navbar-menu {
+  margin: 0;
+}
+
 .navbar-menu>li>a {
-  line-height: 1.27; /* 2 x baseline | 28px/22px */
   padding: 14px 0;
+  line-height: 1.27; /* 2 x baseline | 28px/22px */
   text-decoration: none;
 }
 
@@ -79,9 +83,12 @@ body {
   }
 }
 
+.navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
+    background-color: inherit !important;
+}
+
 @media (min-width: 768px) {
   .navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
-    background-color: inherit !important;
     border-style: solid;
     border-color: #0064a4;
     border-width: 0 0 5px 0;

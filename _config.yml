@@ -6,6 +6,8 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'syntax'
 
+url: http://www.aarondgordon.com
+
 permalink: /blog/:slug/
 
 defaults:

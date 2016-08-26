@@ -270,16 +270,26 @@ a:hover, a:active {
   color: #fff;
 }
 
+.comments-wrapper a {
+  color: #0096F0;
+}
+
+.container-comments {
+  padding: 0.778em; /* 14px/18px */
+}
+
+@media (min-width: 768px) {
+  .container-comments {
+    padding: 0 3.89em; /* 70px/18px */
+  }
+}
+
 .comments-title {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-top: 1.313em; /* 3 x baseline | 42px/32px */
   margin-bottom: 0.875em; /* 2 x baseline | 28px/32px */
   font-size: 1.778em; /* 32px/18px */
   line-height: 1.313; /* 3 x baseline | 42px/32px*/
-}
-
-.comments-title .fa {
-  color: #0096F0;
 }
 
 .footer {

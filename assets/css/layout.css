@@ -81,6 +81,7 @@ body {
 
 @media (min-width: 768px) {
   .navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
+    background-color: inherit !important;
     border-style: solid;
     border-color: #0064a4;
     border-width: 0 0 5px 0;

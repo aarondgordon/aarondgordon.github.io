@@ -230,7 +230,7 @@ a.btn-cover:hover, a.btn-cover:active {
   margin-top: 1.167em; /* 2 x baseline | 28px/24px */
   margin-bottom: 1.167em; /* 2 x baseline | 28px/24px */
   font-size: 1.33em; /* 24px/18px */
-  line-height: 1.167; /* 2 x baseline | 28px/24px */
+  line-height: 1.18; /* 2 x baseline | 28px/24px */
 }
 
 .lead {

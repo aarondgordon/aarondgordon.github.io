@@ -286,10 +286,16 @@ a:hover, a:active {
 
 .comments-title {
   font-family: 'Pathway Gothic One', sans-serif;
-  margin-top: 1.313em; /* 3 x baseline | 42px/32px */
+  margin-top: 0.438em; /* 1 x baseline | 14px/32px */
   margin-bottom: 0.875em; /* 2 x baseline | 28px/32px */
   font-size: 1.778em; /* 32px/18px */
   line-height: 1.313; /* 3 x baseline | 42px/32px*/
+}
+
+@media (min-width: 768px) {
+  .comments-title {
+    margin-top: 1.313em; /* 3 x baseline | 42px/32px */
+  }
 }
 
 .footer {

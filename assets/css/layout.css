@@ -260,6 +260,12 @@ a:hover, a:active {
   font-size: 110% !important;
 }
 
+.comments-wrapper {
+  min-height: 500px;
+  background: #777777;
+  color: #fff;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

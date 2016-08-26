@@ -1,1 +1,1 @@
-Contains cover images used for blog posts
+Contains images used in blog posts

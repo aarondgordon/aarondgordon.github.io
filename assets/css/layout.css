@@ -133,10 +133,17 @@ body {
 .cover-panel {
   width: 100%;
   min-height: 23.333em; /* 30 x baseline | 420px/18px */;
-  padding: 0 3.889em; /* 5 x baseline | 70px/18px */
+  padding: 0.778em; /* 14px/18px */
   color: white;
   background: rgba(0, 100, 164, 0.8);
   float: right;
+}
+
+@media (min-width: 768px) {
+ .cover-panel {
+   padding: 0 3.889em; /* 70px/18px */
+ }
+ }
 }
 
 .cover-title {

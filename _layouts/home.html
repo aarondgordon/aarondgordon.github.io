@@ -28,12 +28,12 @@ layout: default
       {% assign tagStrings="" | split:"|" %}
       {% for tag in site.tags %}
         {% assign tagSort=1000000 | minus:tag.last.size %}
-        {% assign tagString=tagSort | append:' ' | append:tag.first | append:' (' | append:tag.last.size | append:')' %}
+        {% assign tagString=tagSort | append:'|' | append:tag.first | append:'|' | append:tag.last.size %}
         {% assign tagStrings=tagStrings | push:tagString %}
       {% endfor %}
       {% assign tagStrings=tagStrings | sort %}
       {% for tagString in tagStrings limit:9 %}
-        {% assign tag=tagString | split:" " %}
+        {% assign tag=tagString | split:"|" %}
         <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
       {% endfor %}
     </div>

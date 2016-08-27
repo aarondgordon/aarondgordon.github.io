@@ -25,14 +25,16 @@ layout: default
 <div class="container-content-wrapper">
   <div class="container no-gutter">
     <div>
-      {% assign sortedTags=site.tags | sort:[last.size]  | reverse %}
-      {% assign tagNames="" | split:"|" %}
-      {% for tag in sortedTags %}
-        {% assign tagName=tag.first | append:' (' | append:tag.last.size | append:')' %}
-        {% assign tagNames=tagNames | push:tagName %}
+      {% assign tagStrings="" | split:"|" %}
+      {% for tag in site.tags %}
+        {% assign tagSort=1000000 | minus:tag.last.size %}
+        {% assign tagString=tagSort | append:' ' | append:tag.first | append:' (' | append:tag.last.size | append:')' %}
+        {% assign tagStrings=tagStrings | push:tagString %}
       {% endfor %}
-      {% for tag in tagNames limit:9 %}
-        <a href="/tags/#{{ tag | split:" " | first }}">{{ tag }}</a><br/>
+      {% assign tagStrings=tagStrings | sort %}
+      {% for tagString in tagStrings limit:9 %}
+        {% assign tag=tagString | split:" " %}
+        <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
       {% endfor %}
     </div>
     {% for post in site.posts offset:1 %}

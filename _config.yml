@@ -8,7 +8,7 @@ kramdown:
 
 url: http://www.aarondgordon.com
 
-permalink: /:category/:slug/
+permalink: /:categories/:slug/
 
 defaults:
   -

@@ -25,7 +25,14 @@ layout: default
 <div class="container-content-wrapper">
   <div class="container no-gutter">
     <div>
-      {% assign sortedTags=site.tags | sort:[last.size] | reverse  %}
+      {% assign sortedTags="" | split:"|" %}
+      {% for tag in site.tags %}
+        {% assign partialTag="" | split:"|" %}
+        {% assign partialTag=partialTag | push:tag.first %}
+        {% assign partialTag=partialTag | push:tag.last.size %}
+        {% assign sortedTags=sortedTags | push:partialTag %}
+      {% endfor %}
+      {% assign sortedTags=sortedTags | sort:'last' | reverse  %}
       {% for tag in sortedTags limit:9 %}
         {{ tag | first }} ({{ tag | last | size }})<br/>
       {% endfor %}

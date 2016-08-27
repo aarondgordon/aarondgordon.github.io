@@ -28,7 +28,7 @@ layout: default
       {% assign sortedTags=site.tags | sort:[last.size]  %}
       {% assign tagNames="" | split:"|" %}
       {% for tag in sortedTags %}
-        {% assign tagName=tag.first | append:'(' | append:tag.last.size | append:')' %}
+        {% assign tagName=tag.first | append:' (' | append:tag.last.size | append:')' %}
         {% assign tagNames=tagNames | push:tagName %}
       {% endfor %}
       {% assign tagNames=tagNames | reverse %}

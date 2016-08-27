@@ -225,7 +225,9 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .container-tags {
-    padding: 0.778em; /* 1 x baseline | 18px/18px */
+    font-size: 0.889em; /* 16px/18px */
+    line-height: 1.75; /* 2 x baseline | 28px/16px */
+    padding: 0.875em; /* 1 x baseline | 14px/16px */
     background-color: #333;
     font-weight: 700;
 }

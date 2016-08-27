@@ -203,13 +203,9 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .row-tags {
-    padding: 1.556em 0; /* 2 x baseline | 28px/18px */
+    padding: 0.778em; /* 1 x baseline | 18px/18px */
     background-color: #333;
     font-weight: 700;
-}
-
-.row-tags div {
-  padding-left: 7%;
 }
 
 .row-tags a, .row-tags a:hover, .row-tags a:active {

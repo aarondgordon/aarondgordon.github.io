@@ -213,7 +213,7 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .row-tags a, .row-tags a:hover, .row-tags a:active {
-  color: #fff
+  color: #fff;
   text-decoration: none;
 }
 

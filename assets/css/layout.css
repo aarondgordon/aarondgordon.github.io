@@ -288,12 +288,15 @@ small, .font_small {
 }
 
 a {
-  color: #0064a4;
+  color: #0096f0;
   text-decoration: none;
 }
 
-a:hover, a:active {
+a:visited {
   color: #0064a4;
+}
+
+a:hover, a:active {
   text-decoration: underline;
 }
 

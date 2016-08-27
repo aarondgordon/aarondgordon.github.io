@@ -1,0 +1,14 @@
+---
+layout: page
+title: Posts by Tag
+image: /assets/img/common/books.jpg
+permalink: /tags/
+---
+
+{% assign sortedTags=site.tags | sort:'first' %}
+
+<div class="tag-cloud>
+  {% for tag in sortedTags %}
+    <a href="#{{ tag.first }}" class="tag-cloud-tag">{{ tag.first }}</a>
+  {% endfor %}
+</div>

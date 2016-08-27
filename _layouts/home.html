@@ -34,20 +34,26 @@ layout: default
     {% assign tagStrings=tagStrings | sort %}
     
     <div class="row row-tags">
-      <div class="col-sm-4">
-        {% for tagString in tagStrings limit:3 %}
+      <div class="col-sm-3">
+        {% for tagString in tagStrings limit:2 %}
           {% assign tag=tagString | split:"|" %}
           <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
         {% endfor %}
       </div>
-      <div class="col-sm-4">
-        {% for tagString in tagStrings limit:3 offset:3 %}
+      <div class="col-sm-3">
+        {% for tagString in tagStrings limit:2 offset:2 %}
           {% assign tag=tagString | split:"|" %}
           <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
         {% endfor %}
       </div>
-      <div class="col-sm-4">
-        {% for tagString in tagStrings limit:3 offset:6 %}
+      <div class="col-sm-3">
+        {% for tagString in tagStrings limit:2 offset:4 %}
+          {% assign tag=tagString | split:"|" %}
+          <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
+        {% endfor %}
+      </div>
+      <div class="col-sm-3">
+        {% for tagString in tagStrings limit:2 offset:6 %}
           {% assign tag=tagString | split:"|" %}
           <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
         {% endfor %}

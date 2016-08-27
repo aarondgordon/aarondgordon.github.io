@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-tags: Misc
+tags: [Misc, Math, C++, Direct3D, Graphics, Linear Algebra, Calculus]
 ---
 We loved with a love that was more than love
 

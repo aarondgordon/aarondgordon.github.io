@@ -247,7 +247,7 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .tag-cloud {
-    margin-bottom: 2.333em; /* 3 x baseline | 42px/18px */
+    margin-bottom: 1.556em; /* 2 x baseline | 28px/18px */
     padding-left: 1.167em; /* 21px/18px */
 }
 
@@ -257,6 +257,7 @@ a.btn-cover:hover, a.btn-cover:active {
   line-height: 2; /* 2 x baseline | 28px/14px */
   height: 2em; /* 2 x baseline | 28px/14px */
   margin-right: 0.214em; /* 3px/14px */
+  margin-bottom: 1em; /* 1 x baseline | 14px/14px */
   border-radius:  0.214em; /* 3px/14px */
   padding: 0 0.714em; /* 10px/14px */
   color: white;

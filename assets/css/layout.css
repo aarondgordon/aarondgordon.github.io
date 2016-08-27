@@ -289,11 +289,11 @@ small, .font_small {
 
 a {
   color: #0064a4;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover, a:active {
-  color: #0096F0;
+  color: #0064a4;
   text-decoration: underline;
 }
 

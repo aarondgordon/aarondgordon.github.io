@@ -110,15 +110,15 @@ body {
 }
 
 .github:hover, .github:active {
-  color: #000000;
+  color: #000000 !important;
 }
 
 .twitter:hover, .twitter:active {
-  color: #55acee;
+  color: #55acee !important;
 }
 
 .linkedin:hover, .linkedin:active {
-  color: #007bb5;
+  color: #007bb5 !important;
 }
 
 .navbar-toggle {

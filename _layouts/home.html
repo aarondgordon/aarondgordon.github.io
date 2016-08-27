@@ -24,7 +24,7 @@ layout: default
 {% endfor %}
 
 <div class="container-content-wrapper">
-  <div class="container">
+  <div class="container no-gutter">
     {% assign tagStrings="" | split:"|" %}
     {% for tag in site.tags %}
       {% assign tagSort=1000000 | minus:tag.last.size %}
@@ -33,30 +33,37 @@ layout: default
     {% endfor %}
     {% assign tagStrings=tagStrings | sort %}
     
-    <div class="row row-tags">
-      <div class="col-sm-3">
-        {% for tagString in tagStrings limit:2 %}
-          {% assign tag=tagString | split:"|" %}
-          <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
-        {% endfor %}
+    <div class="container container-tags">
+      <div class="row">
+        <div class="col-sm-3">
+          {% for tagString in tagStrings limit:2 %}
+            {% assign tag=tagString | split:"|" %}
+            <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
+          {% endfor %}
+        </div>
+        <div class="col-sm-3">
+          {% for tagString in tagStrings limit:2 offset:2 %}
+            {% assign tag=tagString | split:"|" %}
+            <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
+          {% endfor %}
+        </div>
+        <div class="col-sm-3">
+          {% for tagString in tagStrings limit:2 offset:4 %}
+            {% assign tag=tagString | split:"|" %}
+            <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
+          {% endfor %}
+        </div>
+        <div class="col-sm-3">
+          {% for tagString in tagStrings limit:2 offset:6 %}
+            {% assign tag=tagString | split:"|" %}
+            <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
+          {% endfor %}
+        </div>
       </div>
-      <div class="col-sm-3">
-        {% for tagString in tagStrings limit:2 offset:2 %}
-          {% assign tag=tagString | split:"|" %}
-          <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
-        {% endfor %}
-      </div>
-      <div class="col-sm-3">
-        {% for tagString in tagStrings limit:2 offset:4 %}
-          {% assign tag=tagString | split:"|" %}
-          <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
-        {% endfor %}
-      </div>
-      <div class="col-sm-3">
-        {% for tagString in tagStrings limit:2 offset:6 %}
-          {% assign tag=tagString | split:"|" %}
-          <a href="/tags/#{{ tag[1] }}">{{ tag[1] }} ({{ tag[2] }})</a><br/>
-        {% endfor %}
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="all-tags">View All</span>
+        </div>
       </div>
     </div>
     

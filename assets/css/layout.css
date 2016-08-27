@@ -292,11 +292,8 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #0064a4;
-}
-
 a:hover, a:active {
+  color: #0096f0;
   text-decoration: underline;
 }
 

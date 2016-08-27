@@ -5,7 +5,7 @@ image: /assets/img/common/books.jpg
 permalink: /tags/
 ---
 
-{% assign sortedTags=site.tags | sort:'first' %}
+{% assign sortedTags=site.tags | sort:[first] %}
 
 <div class="tag-cloud">
   {% for tag in sortedTags %}

@@ -30,7 +30,8 @@ layout: default
       {% for tag in sortedTags %}
         {% assign tagNames=tagNames | push:tag.first %}
       {% endfor %}
-      {% for tag in [tagNames | reverse] limit:9 %}
+      {% assign tagNames=tagNames | reverse %}
+      {% for tag in tagNames limit:9 %}
         {{ tag }}<br/>
       {% endfor %}
     </div>

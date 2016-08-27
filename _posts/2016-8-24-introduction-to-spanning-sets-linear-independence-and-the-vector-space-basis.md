@@ -1,6 +1,6 @@
 ---
 title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
-image: /assets/img/posts/test-post/cityline.jpg
+image: /assets/img/posts/test-post/vector-spaces.jpg
 tags: [Misc, Math, Direct3D, Calculus, C#, Web, Source Control] 
 ---
 

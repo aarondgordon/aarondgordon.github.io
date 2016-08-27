@@ -1,7 +1,7 @@
 ---
 title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
 image: /assets/img/posts/test-post/cityline.jpg
-tags: [Misc, Mathematics] 
+tags: [Misc, Math, Direct3D, Calculus, C#, Web, Source Control] 
 ---
 
 This is our excerpt text.  It's used as a post preview on the main page and also serves as our leading paragraph.  What follows is a gross and messy test page!  Read on to be amazed...

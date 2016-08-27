@@ -1,6 +1,6 @@
 ---
 title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
-categories: [misc, mathematics] 
+categories: [Misc, Mathematics] 
 image: /assets/img/posts/test-post/cityline.jpg
 ---
 

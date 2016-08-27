@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-category: Misc
+tags: Misc
 ---
 We loved with a love that was more than love
 

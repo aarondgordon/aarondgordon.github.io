@@ -27,7 +27,7 @@ layout: default
     <div>
       {% assign sortedTags=site.tags | sort:[last.size] | reverse  %}
       {% for tag in sortedTags limit:9 %}
-        {{ tag | last }} ({{ tag | first | size }})<br/>
+        {{ tag }}<br/>
       {% endfor %}
     </div>
     {% for post in site.posts offset:1 %}

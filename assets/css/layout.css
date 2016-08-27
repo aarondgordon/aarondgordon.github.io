@@ -245,7 +245,7 @@ a.btn-cover:hover, a.btn-cover:active {
 .tag-cloud-tag {
     display: inline-block;
     line-height: 1.556; /* 2 x baseline | 28px/18px */
-    margin-right: 0 0.389em; /* 7px/18px */
+    margin-right: 0.389em; /* 7px/18px */
     border-radius: 7px;
     padding: 0 0.389em; /* 7px/18px */
     color: white;

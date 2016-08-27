@@ -25,8 +25,9 @@ layout: default
 <div class="container-content-wrapper">
   <div class="container no-gutter">
     <div>
-      {% for category in site.categories %}
-        {{ category | first }} ({{ category | last | size }})<br/>
+      {% assign tags=site.tags | sort:[last.size]  %}
+      {% for tag in tags %}
+        {{ tag | first }} ({{ tag | last | size }})<br/>
       {% endfor %}
     </div>
     {% for post in site.posts offset:1 %}

@@ -190,7 +190,7 @@ a.btn-cover {
   margin-bottom: 42px;
   line-height: 28px;
   height: 28px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 0 10px;
   font-size: 14px;
   border: 0;
@@ -253,7 +253,7 @@ a.btn-cover:hover, a.btn-cover:active {
   line-height: 28px;
   height: 28px;
   margin-right: 3px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 0 10px;
   color: white;
   background-color: #0064a4;

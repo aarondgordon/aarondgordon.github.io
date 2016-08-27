@@ -3,7 +3,7 @@ layout: default
 ---
 {% for post in site.posts limit:1 %}
 <div class="cover" style="background-image:url('{{ post.image }}')">
-  <div class="container no-gutter">
+  <div class="container">
     <div class="row">
       <div class="col-sm-4 no-gutter">
         <div class="cover-tag">Latest Post</div>
@@ -24,7 +24,7 @@ layout: default
 {% endfor %}
 
 <div class="container-content-wrapper">
-  <div class="container no-gutter">
+  <div class="container">
     {% assign tagStrings="" | split:"|" %}
     {% for tag in site.tags %}
       {% assign tagSort=1000000 | minus:tag.last.size %}

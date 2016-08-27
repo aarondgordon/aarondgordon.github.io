@@ -28,11 +28,12 @@ layout: default
       {% assign sortedTags=site.tags | sort:[last.size]  %}
       {% assign tagNames="" | split:"|" %}
       {% for tag in sortedTags %}
-        {% assign tagNames=tagNames | push:tag.first %}
+        {% assign tagName=tag.first | append:'(' | append:tag.last.size | append:')' %}
+        {% assign tagNames=tagNames | push:tagName %}
       {% endfor %}
       {% assign tagNames=tagNames | reverse %}
       {% for tag in tagNames limit:9 %}
-        {{ tag }}<br/>
+        <a href="/tags/#{{ tag | split:" " | first }}">{{ tag }}</a><br/>
       {% endfor %}
     </div>
     {% for post in site.posts offset:1 %}

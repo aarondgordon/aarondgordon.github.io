@@ -12,3 +12,13 @@ permalink: /tags/
     <a href="#{{ tag.first }}" class="tag-cloud-tag">{{ tag.first }}</a>
   {% endfor %}
 </div>
+
+{% for tag in sortedTags %}
+  {% assign tagName=tag.first %}
+  <h2 id="{{ tagName }}">{{ tagName }}</h2>
+  <ul>
+    {% for post in site.tags[tagName] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

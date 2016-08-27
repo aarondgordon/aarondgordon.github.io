@@ -202,13 +202,17 @@ a.btn-cover:hover, a.btn-cover:active {
   }
 }
 
-.row-tags {
+.container-tags {
     padding: 0.778em; /* 1 x baseline | 18px/18px */
     background-color: #333;
     font-weight: 700;
 }
 
-.row-tags a, .row-tags a:hover, .row-tags a:active {
+.container-tags .row {
+  margin: 0;
+}
+
+.container-tags a, .container-tags a:hover, .container-tags a:active {
   color: #fff;
   text-decoration: none;
 }

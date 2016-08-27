@@ -8,6 +8,7 @@ layout: default
     <div class="tag-cloud">
     	{% assign tagNames="" | split:"|" %}
     	{% for tag in page.tags %}
+    		{{ tag }}
     		{% assign tagName=tag.first %}
     		{% assign tagNames=tagNames | push:tagName %}
     	{% endfor %}

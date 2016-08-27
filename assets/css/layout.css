@@ -187,12 +187,12 @@ body {
 a.btn-cover {
   display: inline-block;
   float: right;
-  margin-bottom: 42px;
-  line-height: 28px;
-  height: 28px;
-  border-radius: 3px;
-  padding: 0 10px;
-  font-size: 14px;
+  margin-bottom: 3em; /* 3 x baseline | 42px/14px */
+  font-size: 0.778em; /* 14px/18px */
+  line-height: 2; /* 2 x baseline | 28px/14px */
+  height: 2em; /* 2 x baseline | 28px/14px */\
+  border-radius:  0.214em; /* 3px/14px */
+  padding: 0 0.714em; /* 10px/14px */
   border: 0;
   color: #0064a4;
   background-color: #f8f8f8;
@@ -246,19 +246,20 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .tag-cloud {
     margin-bottom: 2.333em; /* 3 x baseline | 42px/18px */
+    padding-left: 1.167em; /* 21px/18px */
 }
 
 .tag-cloud-tag {
   display: inline-block;
-  line-height: 28px;
-  height: 28px;
-  margin-right: 3px;
-  border-radius: 3px;
-  padding: 0 10px;
+  font-size: 0.778em; /* 14px/18px */
+  line-height: 2; /* 2 x baseline | 28px/14px */
+  height: 2em; /* 2 x baseline | 28px/14px */
+  margin-right: 0.214em; /* 3px/14px */
+  border-radius:  0.214em; /* 3px/14px */
+  padding: 0 0.714em; /* 10px/14px */
   color: white;
   background-color: #0064a4;
   text-decoration: none;
-  font-size: 14px;
   font-weight: 700;
 }
 

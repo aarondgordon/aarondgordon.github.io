@@ -109,6 +109,18 @@ body {
     text-decoration: none;
 }
 
+.github:hover, .github:active {
+  color: #000000;
+}
+
+.twitter:hover, .twitter:active {
+  color: #55acee;
+}
+
+.linkedin:hover, .linkedin:active {
+  color: #007bb5;
+}
+
 .navbar-toggle {
   border-style: none;
 }

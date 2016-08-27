@@ -8,7 +8,7 @@ kramdown:
 
 url: http://www.aarondgordon.com
 
-permalink: /:categories/:slug/
+permalink: /blog/:slug/
 
 defaults:
   -
@@ -17,7 +17,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      category: "blog"
       image: "/assets/img/common/motherboard.jpg"
 
 exclude:

@@ -238,6 +238,27 @@ a.btn-cover:hover, a.btn-cover:active {
   font-weight: 400;
 }
 
+.tag-cloud {
+    margin-bottom: 2.333em; /* 3 x baseline | 42px/18px */
+}
+
+.tag-cloud-tag {
+    display: inline-block;
+    line-height: 1.556; /* 2 x baseline | 28px/18px */
+    margin-right: 0 0.389em; /* 7px/18px */
+    border-radius: 7px;
+    padding: 0 0.389em; /* 7px/18px */
+    color: white;
+    background-color: #0064a4;
+    text-decoration: none;
+}
+
+.tag-cloud-tag:hover, .tag-cloud-tag:active {
+    color: #fff;
+    background-color: #0096f0;
+    text-decoration: none;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: 'Pathway Gothic One', sans-serif;

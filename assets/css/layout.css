@@ -237,12 +237,15 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .post-preview-date {
+  font-size: 0.889em; /* 16px/18px */
+  line-height: 1.75; /* 2 x baseline | 28px/16px */
   color: #777;
+  margin-bottom: 0.875em; /* 1 x baseline | 14px/16px */
 }
 
 .post-preview-comments {
   color: #0096f0;
-  margin-bottom: 0.778em; /* 1 x baseline | 14px/18px */
+  margin-left: 1.75em; /* 28px/16px */
 }
 
 .post-preview p {

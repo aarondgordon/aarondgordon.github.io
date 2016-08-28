@@ -169,18 +169,13 @@ body {
 }
 
 .featured-post-date {
-  margin-right: 1.556em; /* 28px/18px */
+  margin-right: 2em; /* 36px/18px */
 }
 
 @media (min-width: 768px) {
   .cover-title {
     margin-top: 1.666em; /* 5 x baseline | 70px/42px */
   }
-}
-
-.cover-title a, .cover-title a:hover, .cover-title a:active {
-  color: #000;
-  text-decoration: none;
 }
 
 .cover-panel a {
@@ -191,6 +186,11 @@ body {
 .cover-panel a:hover, .cover-panel a:active {
   color: #fff;
   text-decoration: underline;
+}
+
+.cover-title a, .cover-title a:hover, .cover-title a:active {
+  color: #000;
+  text-decoration: none;
 }
 
 a.btn-cover {

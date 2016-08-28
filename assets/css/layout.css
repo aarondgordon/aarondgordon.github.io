@@ -236,6 +236,10 @@ a.btn-cover:hover, a.btn-cover:active {
   text-decoration: none;
 }
 
+.post-preview-date {
+  color: #777;
+}
+
 .post-preview-comments {
   color: #0096f0;
   margin-bottom: 0.778em; /* 1 x baseline | 14px/18px */

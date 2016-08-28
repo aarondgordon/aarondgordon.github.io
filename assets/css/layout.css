@@ -127,9 +127,15 @@ body {
 
 .cover {
   width: 100%;
-  min-height: 23.333em; /* 30 x baseline | 420px/18px */
+  min-height: 7.778em; /* 10 x baseline | 140px/18px */
   background-position: center;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    min-height: 23.333em; /* 30 x baseline | 420px/18px */
+  }
 }
 
 .cover-tag {
@@ -148,7 +154,7 @@ body {
 
 .cover-panel {
   width: 100%;
-  min-height: 23.333em; /* 30 x baseline | 420px/18px */;
+  min-height: 7.778em; /* 10 x baseline | 140px/18px */
   padding: 0.778em; /* 14px/18px */
   color: white;
   background: rgba(0, 100, 164, 0.8);
@@ -158,6 +164,7 @@ body {
 @media (min-width: 768px) {
  .cover-panel {
    padding: 0 3.889em; /* 70px/18px */
+    min-height: 23.333em; /* 30 x baseline | 420px/18px */;
  }
 }
 

@@ -258,6 +258,7 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .post-preview-read-more {
   text-align: right;
+  font-weight: 700;
 }
 
 .container-content-wrapper {

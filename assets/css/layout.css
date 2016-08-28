@@ -127,7 +127,7 @@ body {
 
 .cover {
   width: 100%;
-  min-height: 7.778em; /* 10 x baseline | 140px/18px */
+  min-height: 15.556em; /* 20 x baseline | 280px/18px */
   background-position: center;
   background-size: cover;
 }
@@ -154,7 +154,7 @@ body {
 
 .cover-panel {
   width: 100%;
-  min-height: 7.778em; /* 10 x baseline | 140px/18px */
+  min-height: 15.556em; /* 20 x baseline | 280px/18px */
   padding: 0.778em; /* 14px/18px */
   color: white;
   background: rgba(0, 100, 164, 0.8);

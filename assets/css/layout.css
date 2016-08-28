@@ -213,12 +213,13 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .post-preview {
   background-color: #fff;
+  margin: 1.556em 0; /* 2 x baseline | 28px/18px */
   padding: 0.778em; /* 14px/18px */
 }
 
 @media (min-width: 768px) {
   .post-preview {
-    padding: 0 3.89em; /* 70px/18px */
+    padding: 0.778em 3.89em; /* 14px/18px, 70px/18px */
   }
 }
 
@@ -256,7 +257,6 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .container-content {
   background-color: #fff;
-  padding: 0.778em; /* 14px/18px */
 }
 
 @media (min-width: 768px) {

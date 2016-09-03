@@ -396,6 +396,12 @@ a:hover, a:active {
   font-size: 110% !important;
 }
 
+.syntax {
+    font-family: 'Roboto Mono';
+    font-size: 0.889em; /* 16px/18px */
+    line-height: 1.75em; /* 2 x baseline | 28px/16px */
+}
+
 .comments-wrapper {
   background: #333;
   color: #fff;

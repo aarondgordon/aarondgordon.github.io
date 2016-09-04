@@ -1,5 +1,5 @@
 ---
-title: Introduction to Spanning Sets, Linear Independence and the Vector Space Basis
+title: Introduction to Linear Independence
 image: /assets/img/posts/test-post/vector-spaces.jpg
 tags: [Misc, Math, Direct3D, Calculus, C#, Web, Source Control] 
 ---
@@ -8,7 +8,7 @@ This is our excerpt text.  It's used as a post preview on the main page and also
 
 This is a test of creating markdown pages.  Normally our first paragraph after the lead might run a little longer, so here's some lorem ipsum, but first a [link to Google](https://www.google.com "Google").  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae turpis maximus, suscipit lacus in, aliquam neque. Morbi sollicitudin, risus nec molestie semper, tortor neque luctus diam, id ornare dolor erat a lacus.
 
-## The Big Idea: Two Vectors That Can't Scale to One Another ##
+## Two Vectors That Can't Scale to One Another ##
 
 As you saw above, we have 48px title text.  Big and bold!  We also need smaller sub-headers for dividing sections of an article, like the one above!  Perfect!  Now we just need some lorem ipsum!
 

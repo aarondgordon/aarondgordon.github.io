@@ -314,17 +314,16 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .tag-cloud-tag {
   display: inline-block;
-  font-size: 0.8em; /* 14px/18px */
-  line-height: 2; /* 2 x baseline | 28px/14px */
-  height: 2em; /* 2 x baseline | 28px/14px */
-  margin-right: 0.214em; /* 3px/14px */
-  margin-bottom: 1em; /* 1 x baseline | 14px/14px */
-  border-radius:  0.214em; /* 3px/14px */
-  padding: 0 0.714em; /* 10px/14px */
-  color: white;
+  height: 28px; /* 2 x baseline */
+  margin-right: 3px
+  margin-bottom: 14px; /* 1 x baseline */
+  border-radius:  3px;
+  padding: 0 10px;
   background-color: #0064a4;
-  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .tag-cloud-tag:hover, .tag-cloud-tag:active {

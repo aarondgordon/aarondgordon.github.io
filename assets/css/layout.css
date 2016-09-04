@@ -309,12 +309,12 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .tag-cloud {
-    margin-bottom: 1.556em; /* 2 x baseline | 28px/18px */
+    margin-bottom: 28px; /* 2 x baseline */
 }
 
 .tag-cloud-tag {
   display: inline-block;
-  height: 28px; /* 2 x baseline */
+  height: 27px; /* 2 x baseline */
   margin: 0 2px 14px 0;
   border-radius:  4px;
   padding: 0 12px;
@@ -322,12 +322,14 @@ a.btn-cover:hover, a.btn-cover:active {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
   text-decoration: none;
 }
 
 .tag-cloud-tag:hover, .tag-cloud-tag:active {
-    color: #fff;
     background-color: #0096f0;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -339,7 +341,7 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .h1, h1 {
   font-size: 3.10em; /* 55.8px/18px */
-  line-height: 1.25em; /* 5 x baseline | 70px/55.8px */
+  line-height: 1.26em; /* 5 x baseline | 70px/55.8px */
 }
 
 .h2, h2 {
@@ -372,7 +374,7 @@ a.btn-cover:hover, a.btn-cover:active {
   padding-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25em; /* 22.5px/18px */
-  line-height: 1.24em; /* 2 x baseline | 28px/22.5px */
+  line-height: 1.25em; /* 2 x baseline | 28px/22.5px */
 }
 
 p {

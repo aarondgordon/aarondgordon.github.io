@@ -334,7 +334,7 @@ a.btn-cover:hover, a.btn-cover:active {
     text-decoration: none;
 }
 
-.h1, .h2, .h3 h1, h2, h3 {
+.h1, .h2, .h3, h1, h2, h3 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;

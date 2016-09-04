@@ -401,6 +401,10 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+ul a {
+  font-weight: 400;
+}
+
 .mjx-chtml {
   font-size: 110% !important;
 }

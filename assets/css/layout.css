@@ -384,6 +384,7 @@ p {
 
 small, .font_small {
   font-size: 0.8em; /* 14.4px/18px */
+  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
 }
 
 a {

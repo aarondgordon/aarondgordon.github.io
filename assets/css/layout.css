@@ -315,10 +315,9 @@ a.btn-cover:hover, a.btn-cover:active {
 .tag-cloud-tag {
   display: inline-block;
   height: 28px; /* 2 x baseline */
-  margin-right: 3px
-  margin-bottom: 14px; /* 1 x baseline */
-  border-radius:  3px;
-  padding: 0 10px;
+  margin: 0 2px 14px 0;
+  border-radius:  4px;
+  padding: 0 12px;
   background-color: #0064a4;
   color: white;
   font-family: 'Open Sans', sans-serif;

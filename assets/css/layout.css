@@ -310,12 +310,11 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .tag-cloud {
     margin-bottom: 1.556em; /* 2 x baseline | 28px/18px */
-    padding-left: 1.167em; /* 21px/18px */
 }
 
 .tag-cloud-tag {
   display: inline-block;
-  font-size: 0.778em; /* 14px/18px */
+  font-size: 0.8em; /* 14px/18px */
   line-height: 2; /* 2 x baseline | 28px/14px */
   height: 2em; /* 2 x baseline | 28px/14px */
   margin-right: 0.214em; /* 3px/14px */
@@ -342,7 +341,7 @@ a.btn-cover:hover, a.btn-cover:active {
 
 .h1, h1 {
   font-size: 3.10em; /* 55.8px/18px */
-  line-height: 1; /* 4 x baseline | 56px/55.8px */
+  line-height: 1.25em; /* 5 x baseline | 70px/55.8px */
 }
 
 .h2, h2 {

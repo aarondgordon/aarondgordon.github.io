@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="cover" style="background-image:url('{{ page.image }}')"></div>
-<div class="container-content-wrapper">
-  <div class="container container-content">
+<div class="post-wrapper">
+  <div class="container container-post">
     <h1>{{ page.title }}</h1>
     <div class="tag-cloud">
     	{% assign sortedTags=page.tags | sort %}
@@ -17,7 +17,7 @@ layout: default
 </div>
 <div class="comments-wrapper">
   <div class="container container-comments">
-  	<div class="comments-title">Comments on {{ page.title }}</div>
+  	<div class="container-comments-title">Thoughts on "{{ page.title }}"</div>
 	
 	<div id="disqus_thread"></div>
 	<script>

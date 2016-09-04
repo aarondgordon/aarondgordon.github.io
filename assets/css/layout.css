@@ -382,7 +382,7 @@ p {
   padding-bottom: 1.5565em; /* 2 x baseline | 28px/18px */
 }
 
-small, .font_small {
+small, .small {
   font-size: 0.8em; /* 14.4px/18px */
   line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
 }

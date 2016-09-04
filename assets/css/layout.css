@@ -354,6 +354,12 @@ a.btn-cover:hover, a.btn-cover:active {
   line-height: 1.24; /* 2 x baseline | 28px/22.5px */
 }
 
+.date {
+  font-size: 1.25em; /* 22.5px/18px */
+  font-style: italic;
+  line-height: 1.24; /* 2 x baseline | 28px/22.5px */
+}
+
 .lead {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25em; /* 22.5px/18px */
@@ -372,7 +378,7 @@ small, .small {
 
 .container-post .h2, .container-post h2 {
   margin-top: 1.2em; /* 3 x baseline | 42px/35.1px */
-  margin-bottom: 0.8em; /* 2 x baseline | 28px/35.1px */
+  margin-bottom: 0.4em; /* 1 x baseline | 14px/35.1px */
 }
 
 .container-post .h3, .container-post h3 {

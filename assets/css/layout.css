@@ -373,6 +373,7 @@ a.btn-cover:hover, a.btn-cover:active {
 .lead {
   margin: 0;
   padding-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25em; /* 22.5px/18px */
   line-height: 1.24em; /* 2 x baseline | 28px/22.5px */
 }

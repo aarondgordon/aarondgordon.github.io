@@ -128,14 +128,14 @@ body {
 
 .cover {
   width: 100%;
-  min-height: 18.667em; /* 24 x baseline | 336px/18px */
+  min-height: 21em; /* 27 x baseline | 378px/18px */
   background-position: center;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .cover {
-    min-height: 23.333em; /* 30 x baseline | 420px/18px */
+    min-height: 28em; /* 36 x baseline | 504x/18px */
   }
 }
 

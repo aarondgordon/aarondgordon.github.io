@@ -354,23 +354,6 @@ a.btn-cover:hover, a.btn-cover:active {
   line-height: 1.24; /* 2 x baseline | 28px/22.5px */
 }
 
-.date {
-  font-size: 1.25em; /* 22.5px/18px */
-  font-style: italic;
-  line-height: 1.24; /* 2 x baseline | 28px/22.5px */
-}
-
-.lead {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.25em; /* 22.5px/18px */
-  line-height: 1.25em; /* 2 x baseline | 28px/22.5px */
-}
-
-small, .small {
-  font-size: 0.8em; /* 14.4px/18px */
-  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
-}
-
 .container-post .h1, .container-post h1 {
   margin-top: 0.75em; /* 3 x baseline | 42px/55.8px */
   margin-bottom: 0.25em; /* 1 x baseline | 14px/55.8px */
@@ -386,14 +369,30 @@ small, .small {
   margin-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
 }
 
-.container-post .lead {
+.date {
   margin: 0;
   padding-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
+  font-size: 1.25em; /* 22.5px/18px */
+  font-style: italic;
+  line-height: 1.24; /* 2 x baseline | 28px/22.5px */
 }
 
-.container-post p {
+.lead {
+  margin: 0;
+  padding-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em; /* 22.5px/18px */
+  line-height: 1.25em; /* 2 x baseline | 28px/22.5px */
+}
+
+p {
   margin: 0;
   padding-bottom: 1.5565em; /* 2 x baseline | 28px/18px */
+}
+
+small, .small {
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
 }
 
 a {

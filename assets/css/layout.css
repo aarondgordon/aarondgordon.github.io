@@ -327,7 +327,7 @@ a.btn-cover:hover, a.btn-cover:active {
   text-decoration: none;
 }
 
-.tag-cloud-tag:hover, .tag-cloud-tag:active {
+.tag-cloud-tag:hover, .tag-cloud-tag:active, .tag-cloud-tag:focus {
     background-color: #0096f0;
     color: #fff;
     text-decoration: none;

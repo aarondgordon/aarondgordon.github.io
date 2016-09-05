@@ -369,6 +369,12 @@ a.btn-cover:hover, a.btn-cover:active {
   margin-bottom: 1em; /* 2 x baseline | 28px/28.26px */
 }
 
+@media (min-width: 768px) {
+  .container-comments .h2, .container-comments h2 {
+    margin-top: 1.49em; /* 3 x baseline | 42px/28.26px */
+  }
+}
+
 .container-post .h3, .container-post h3 {
   margin-top: 1.24em; /* 2 x baseline | 28px/22.5px */
   margin-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
@@ -441,12 +447,6 @@ ul a {
 @media (min-width: 768px) {
   .container-comments {
     padding: 0 3.89em; /* 70px/18px */
-  }
-}
-
-@media (min-width: 768px) {
-  .container-comments-title {
-    margin-top: 1.49em; /* 3 x baseline | 42px/28.26px */
   }
 }
 

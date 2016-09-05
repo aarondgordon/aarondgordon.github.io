@@ -78,10 +78,6 @@ body {
   color: #007bb5 !important;
 }
 
-.navbar-toggle {
-  border-style: none;
-}
-
 .cover {
   width: 100%;
   min-height: 21em; /* 27 x baseline | 378px/18px */

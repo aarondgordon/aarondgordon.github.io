@@ -247,14 +247,23 @@ a:hover, a:active, a:focus {
   font-size: 110% !important;
 }
 
+.filename {
+  float: right;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 0.97; /* 1 x baseline | 14/14.4px */
+}
+
 .syntax {
+  clear: right;
   margin: 0 0 1.94em; /* 2 x baseline | 28px/14.4px */
-  border: 0;
+  border-width: 1px 0;
   border-radius: 0;
   padding: 0.97em 1.94em; /* 1 x baseline | 14/14.4px, 2 x baseline | 28px/14.4px */
-  font-family: 'Roboto Mono';
+  background: none;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.8em; /* 14.4px/18px */
-  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
+  line-height: 1.94; /* 2 x baseline | 28px/14.4px */
 }
 
 .comments-wrapper {

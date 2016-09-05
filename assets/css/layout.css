@@ -360,13 +360,13 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .container-post .h2, .container-post h2 {
-  margin-top: 1.2em; /* 3 x baseline | 42px/35.1px */
-  margin-bottom: 0.8em; /* 2 x baseline | 28px/35.1px */
+  margin-top: 1.49em; /* 3 x baseline | 42px/28.26px */
+  margin-bottom: 1em; /* 2 x baseline | 28px/28.26px */
 }
 
 .container-comments .h2, .container-comments h2 {
-  margin-top: 0.5em; /* 1 x baseline | 14px/28.26px */
-  margin-bottom: 1em; /* 2 x baseline | 28px/28.26px */
+  margin-top: 0.78em; /* 1 x baseline | 14px/18px */
+  margin-bottom: 1.56em; /* 2 x baseline | 28px/18px */
 }
 
 @media (min-width: 768px) {

@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.no-border {
+  border: 0;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -25,10 +29,6 @@ body {
 
 .container {
   max-width: 970px !important;
-}
-
-.navbar {
-  border: 0;
 }
 
 .navbar-header {

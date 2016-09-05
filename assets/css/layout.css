@@ -249,6 +249,7 @@ a:hover, a:active, a:focus {
 
 .filename {
   float: right;
+  padding: 0;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em; /* 14.4px/18px */
   line-height: 0.97; /* 1 x baseline | 14/14.4px */

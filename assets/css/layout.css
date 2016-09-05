@@ -61,15 +61,11 @@ body {
 .navbar {
   margin: 0;
   border: 0;
-  padding: 0;
-  min-height: 2.55em; /* 4 x baseline | 56px/22px */
-  font-size: 1.22em; /* 22px/18px */
-}
-
-@media (min-width: 768px) {
- .navbar {
-   min-height: 0;
- } 
+  padding: 0.97 0 0; /* 1 x baseline | 14px/14.4px */;
+  min-height: 3.89em; /* 4 x baseline | 56px/14.4px */
+  font-family: 'Open Sans';
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 0.97; /* 1 x baseline | 14px/14.4px */
 }
 
 .navbar-menu {
@@ -77,36 +73,23 @@ body {
 }
 
 .navbar-menu>li>a {
-  padding: 14px 0;
-  font-family: 'Open Sans';
+  padding: 0;
   font-weight: 800;
-  font-size: 0.8em; /* 14.4px/18px */
-  line-height: 0.97; /* 1 x baseline | 14px/14.4px */
   text-decoration: none;
 }
 
 @media (min-width: 768px) {
   .navbar-menu>li>a {
-    margin-right: 28px;
+    margin-right: 1.94em; /* 28px/14.4px */
   }
 }
 
-.navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
+.navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>li>a:focus, .navbar-menu>.active>a {
     background-color: inherit !important;
 }
 
-@media (min-width: 768px) {
-  .navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>.active>a {
-    border-style: solid;
-    border-color: #0064a4;
-    border-width: 0 0 5px 0;
-    padding-bottom: 9px;
-    text-decoration: none;
-  }
-}
-
 .navbar-social>li>a {
-    padding-bottom: 0;
+    padding: 0;
     text-decoration: none;
 }
 

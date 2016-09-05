@@ -61,11 +61,11 @@ body {
 .navbar {
   margin: 0;
   border: 0;
-  padding: 0.97 0 0; /* 1 x baseline | 14px/14.4px */;
+  padding: 0.97em 0 0; /* 1 x baseline | 14px/14.4px */;
   min-height: 3.89em; /* 4 x baseline | 56px/14.4px */
   font-family: 'Open Sans';
   font-size: 0.8em; /* 14.4px/18px */
-  line-height: 0.97; /* 1 x baseline | 14px/14.4px */
+  line-height: 1.94; /* 2 x baseline | 28px/14.4px */
 }
 
 .navbar-menu {
@@ -89,7 +89,8 @@ body {
 }
 
 .navbar-social>li>a {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     text-decoration: none;
 }
 

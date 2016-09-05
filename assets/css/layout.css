@@ -74,6 +74,9 @@ body {
 
 .navbar-menu {
   margin: 0;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 0.8em;
 }
 
 .navbar-menu>li>a {

@@ -16,7 +16,7 @@ permalink: /tags/
 {% for tag in sortedTags %}
   {% assign tagName=tag.first %}
   <h3 id="{{ tagName }}">{{ tagName }}</h3>
-  <ul>
+  <ul style="font-weight: 400">
     {% for post in site.tags[tagName] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}

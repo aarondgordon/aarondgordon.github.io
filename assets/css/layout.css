@@ -248,9 +248,13 @@ a:hover, a:active, a:focus {
 }
 
 .syntax {
-    font-family: 'Roboto Mono';
-    font-size: 0.8em; /* 14.4px/18px */
-    line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
+  margin: 0 0 1.94em; /* 2 x baseline | 28px/14.4px */
+  border: 0;
+  border-radius: 0;
+  padding: 0 0 0 1em;
+  font-family: 'Roboto Mono';
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
 }
 
 .comments-wrapper {

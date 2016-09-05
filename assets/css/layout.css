@@ -106,9 +106,6 @@ body {
 }
 
 .navbar-social>li>a {
-    font-size: 1.455em; /* 32px/22px */
-    line-height: 1.3125; /* 3 x baseline | 42px/32px */
-    padding-top: 0.21875em; /* 1/2 x baseline | 7px/32px */
     padding-bottom: 0;
     text-decoration: none;
 }

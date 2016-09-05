@@ -74,14 +74,14 @@ body {
 
 .navbar-menu {
   margin: 0;
-  font-family: 'Open Sans';
-  font-weight: 800;
-  font-size: 0.8em;
 }
 
 .navbar-menu>li>a {
   padding: 14px 0;
-  line-height: 1.27; /* 2 x baseline | 28px/22px */
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 0.8em; /* 14.4px/18px */
+  line-height: 0.97; /* 1 x baseline | 14px/14.4px */
   text-decoration: none;
 }
 

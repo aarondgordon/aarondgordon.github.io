@@ -38,11 +38,11 @@ body {
 .navbar-menu, .navbar-social {
   margin: 0;
   padding: 0;
-  min-height: 56px;
 }
 
 .navbar-menu>li>a, .navbar-social>li>a {
   padding: 0.97em 0 0; /* 1 x baseline | 14px/14.4px */;
+  min-height: 3.89em; /* 4 x baseline | 56px/14.4px */
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 0.8em; /* 14.4px/18px */
@@ -79,6 +79,7 @@ body {
 }
 
 .cover {
+  margin-top: 3.11em; /* 56px/18px */
   width: 100%;
   min-height: 21em; /* 27 x baseline | 378px/18px */
   background-position: center;

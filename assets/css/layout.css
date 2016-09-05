@@ -58,7 +58,7 @@ body {
   z-index: 10000;
 }
 
-.navbar {
+#navbar {
   margin: 0;
   border: 0;
   padding: 0.97em 0 0; /* 1 x baseline | 14px/14.4px */;

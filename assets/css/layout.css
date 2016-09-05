@@ -228,6 +228,7 @@ a.btn-cover:hover, a.btn-cover:active {
 }
 
 .container-post {
+  padding: 0.778em; /* 14px/18px */
   background-color: #fff;
 }
 

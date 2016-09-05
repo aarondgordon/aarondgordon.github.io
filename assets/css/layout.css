@@ -75,6 +75,7 @@ body {
 .navbar-menu>li>a {
   padding: 0;
   font-weight: 800;
+  line-height: inherit !important;
   text-decoration: none;
 }
 
@@ -85,13 +86,14 @@ body {
 }
 
 .navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>li>a:focus, .navbar-menu>.active>a {
-    background-color: inherit !important;
+  background-color: inherit !important;
 }
 
 .navbar-social>li>a {
-    padding-top: 0;
-    padding-bottom: 0;
-    text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: inherit !important;
+  text-decoration: none;
 }
 
 .github:hover, .github:active {

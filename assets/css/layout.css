@@ -27,48 +27,17 @@ body {
   max-width: 970px !important;
 }
 
-.header {
-  width: 100%;
-  background-color: white;
-}
-
-.header-brand {
-  margin: 1.3125em 0 0.4375em; /* 3 x baseline, 1 x baseline | 42px/32px, 14px/32px */
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.778em; /* 32px/18px */
-  line-height: 1.3125; /* 3 x baseline | 42px/32px */
-}
-
-.header-brand a, .header-brand a:hover, .header-brand a:active {
-  color: #0064a4;
-  text-decoration: none;
-}
-
-.header-tagline {
-  float: right;
-  position: relative;
-  top: 2.33em; /* 3 x baseline | 42px/18px */
-  margin-bottom: 2.33em; /* 3 x baseline | 42px/18px */
-  padding-left: 2.33em; /* 42px / 18px */
-  color: #777;
-  text-align: right;
-  font-family: 'Gloria Hallelujah', sans-serif;
-  font-size: 0.5625em; /* 18px/32px */
-  line-height: 0.778; /* 1 x baseline | 14px/18px */
-  z-index: 10000;
-}
-
-.navbar-menu, .navbar-social {
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   border: 0;
 }
 
 .navbar-header {
   min-height: 56px;
+}
+
+.navbar-menu, .navbar-social {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-menu>li>a, .navbar-social>li>a {

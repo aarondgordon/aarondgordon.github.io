@@ -63,6 +63,14 @@ body {
   padding: 0;
 }
 
+.navbar {
+  border: 0;
+}
+
+.navbar-header {
+  min-height: 56px;
+}
+
 .navbar-menu>li>a, .navbar-social>li>a {
   padding: 0.97em 0 0; /* 1 x baseline | 14px/14.4px */;
   min-height: 3.89em; /* 4 x baseline | 56px/14.4px */

@@ -166,7 +166,7 @@ body {
   margin: 0 0.14em 0.97em 0;
   border-radius:  0.28em;
   padding: 0 0.83em;
-  background-color: #0064a4;
+  background-color: #e49b00;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -176,7 +176,7 @@ body {
 }
 
 .tag:hover, .tag:active, .tag:focus {
-    background-color: #0096f0;
+    background-color: #ffc13d;
     color: #fff;
     text-decoration: none;
 }
@@ -233,13 +233,13 @@ small, .small {
 }
 
 a {
-  color: #0096f0;
+  color: #e49b00;
   font-weight: 700;
   text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
-  color: #0096f0;
+  color: #e49b00;
   text-decoration: underline;
 }
 

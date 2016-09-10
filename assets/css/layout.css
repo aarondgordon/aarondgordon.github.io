@@ -66,8 +66,12 @@ body {
   background-color: inherit !important;
 }
 
+.navbar-menu>li>a:hover, .navbar-menu>li>a:active, .navbar-menu>li>a:focus {
+  color: #000 !important;
+}
+
 .navbar-menu>.active>a {
-  color: #e49b00;
+  color: #e49b00 !important;
 }
 
 .github:hover, .github:active {

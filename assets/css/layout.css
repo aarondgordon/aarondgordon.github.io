@@ -31,6 +31,11 @@ body {
   max-width: 970px !important;
 }
 
+.navbar-default {
+  background-color: #fff !important;
+  color: #777 !important;
+}
+
 .navbar-header {
   min-height: 56px;
 }
@@ -72,6 +77,10 @@ body {
 
 .navbar-menu>.active>a {
   color: #e49b00 !important;
+}
+
+.navbar-menu>.active>a:hover, .navbar-menu>.active>a:active, .navbar-menu>.active>a:focus {
+  color: #ffc13d !important;
 }
 
 .github:hover, .github:active {

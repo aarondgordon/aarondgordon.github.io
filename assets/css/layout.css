@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  margin-bottom: 56px;
+  margin-bottom: 112px;
   background-color: #ebebeb;
   color: #333;
   font-family: 'Lora', sans-serif;
@@ -314,11 +314,9 @@ a:hover, a:active, a:focus {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 56px;
+  height: 112px;
   padding: 0px;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8em;
 }
 
 .github-logo {
@@ -326,11 +324,13 @@ a:hover, a:active, a:focus {
 }
 
 .github-logo span {
-  position: relative;
-  top: 22px;
+  display: inline-block;
+  margin-top: 80px;
   color: #777;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
 }
 
 .github-logo img {
-  margin-top: 12px;
+  margin-top: 70px;
 }

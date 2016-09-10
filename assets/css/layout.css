@@ -296,7 +296,7 @@ a:hover, a:active, a:focus {
 
 @media (min-width: 768px) {
   .container-comments {
-    padding: 0 3.89em; /* 70px/18px */
+    padding: 0 3.89em 0.78em; /* 70px/18px, 14px/18px */
   }
 }
 

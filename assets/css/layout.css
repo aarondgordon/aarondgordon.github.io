@@ -19,9 +19,9 @@ body {
   margin-bottom: 56px;
   background-color: #ebebeb;
   color: #333;
-  font-family: 'Lora', sans-serif;
-  font-size: 1.125em; /* 18px/16px  */
+  font-family: 'Lora', serif;
   font-weight: 400;
+  font-size: 1.125em; /* 18px/16px  */
   line-height: 1.55; /* 2 x baseline | 28px/18px */
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
@@ -48,7 +48,7 @@ body {
 .navbar-menu>li>a, .navbar-social>li>a {
   padding: 0.97em 0 0; /* 1 x baseline | 14px/14.4px */;
   min-height: 3.89em; /* 4 x baseline | 56px/14.4px */
-  font-family: 'Open Sans';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 0.8em; /* 14.4px/18px */
   line-height: 1.94; /* 2 x baseline | 28px/14.4px */
@@ -185,7 +185,7 @@ body {
   padding: 0 0.83em;
   background-color: #e49b00;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 0.8em; /* 14.4px/18px */
   line-height: 1.94em; /* 2 x baseline | 28px/14.4px */
@@ -200,8 +200,8 @@ body {
 
 .h1, .h2, .h3, h1, h2, h3 {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
 }
 
 .h1, h1 {
@@ -234,7 +234,8 @@ body {
 .lead {
   margin: 0;
   padding-bottom: 1.24em; /* 2 x baseline | 28px/22.5px */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 1.25em; /* 22.5px/18px */
   line-height: 1.25em; /* 2 x baseline | 28px/22.5px */
 }
@@ -327,7 +328,8 @@ a:hover, a:active, a:focus {
   display: inline-block;
   margin-top: 22px;
   color: #777;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 0.8em;
 }
 

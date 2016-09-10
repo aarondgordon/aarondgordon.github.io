@@ -317,7 +317,6 @@ a:hover, a:active, a:focus {
   height: 56px;
   padding: 0px;
   background-color: #fff;
-  color: #777;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
 }
@@ -329,6 +328,7 @@ a:hover, a:active, a:focus {
 .github-logo span {
   position: relative;
   top: 22px;
+  color: #777;
 }
 
 .github-logo img {

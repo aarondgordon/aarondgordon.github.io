@@ -22,7 +22,7 @@ body {
   font-family: 'Lora', sans-serif;
   font-size: 1.125em; /* 18px/16px  */
   font-weight: 400;
-  line-height: 1.556; /* 2 x baseline | 28px/18px */
+  line-height: 1.55; /* 2 x baseline | 28px/18px */
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .tag-cloud {
-  margin-bottom: 1.56em; /* 2 x baseline | 28px/18px */
+  margin-bottom: 1.55em; /* 2 x baseline | 28px/18px */
 }
 
 .tag {
@@ -224,7 +224,7 @@ body {
 
 p {
   margin: 0;
-  padding-bottom: 1.5565em; /* 2 x baseline | 28px/18px */
+  padding-bottom: 1.55em; /* 2 x baseline | 28px/18px */
 }
 
 small, .small {
